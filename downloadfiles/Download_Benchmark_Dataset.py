@@ -21,7 +21,7 @@ import time
 logging.basicConfig(filename='/tmp/cv_model_shipper.log', level=logging.INFO, format='%(asctime)s %(message)s')
 DATASET_NAME = 'benchmark_dataset_13_1_20'
 GS_CREDENTIALS_FILE_LOCATION = "verificientcvmodels.json"
-DOWNLOAD_LOCATION = "/home/himanshu.chaubey/AjeetSingh_space/visionwork/downloadfiles/"
+DOWNLOAD_LOCATION = "/home/ajeet/codework/ujjawal_github/visionwork/downloadfiles/"
 print('[Info] GS_CREDENTIALS_FILE_LOCATION : ', os.path.exists(GS_CREDENTIALS_FILE_LOCATION))
 BUCKET_NAME = 'verificientcvmodels'
 FOLDER_NAME_DEV = 'Prestaging'
@@ -125,40 +125,73 @@ class CVModelsShipper(object):
             session_id = blob.name.split('/')[2] if len(blob.name.split('/')) > 2 else None
             print('[Blob] ', blob.name, session_id)
             print(type(session_id))
-            if session_id.isdigit():
-                print(session_id)
-                if int(session_id) in filtered_session:
-                    local_path = os.path.join(DOWNLOAD_LOCATION, blob.name)
-                    pbar.update(n=1)
-                    if not os.path.exists(local_path):
-                        print("local_path", local_path)
-                        print('[Info] ', os.path.dirname(local_path))
-                        # x=os.path.dirname(local_path).replace('/','\\')
-                        x = os.path.dirname(local_path)
-                        print("x", x)
-                        cmd="mkdir -p "+x
-                        print("cmd]",cmd)
+            local_path = os.path.join(DOWNLOAD_LOCATION, blob.name)
+            pbar.update(n=1)
+            if not os.path.exists(local_path):
+                print("local_path", local_path)
+                print('[Info] ', os.path.dirname(local_path))
+                # x=os.path.dirname(local_path).replace('/','\\')
+                x = os.path.dirname(local_path)
+                print("x", x)
+                cmd="mkdir -p "+x
+                print("cmd]",cmd)
 
-                        os.system(cmd)
-                        #os.system('md  {}'.format(os.path.dirname(local_path)))
+                os.system(cmd)
+                #os.system('md  {}'.format(os.path.dirname(local_path)))
 
-                    count += 1
-                    files_.append(blob.name)
+            count += 1
+            files_.append(blob.name)
 
 
-                    if os.path.exists(local_path):
-                        # print('file already exists '+local_path)
-                        continue
-                    if not os.path.basename(blob.name):
-                        continue
+            if os.path.exists(local_path):
+                # print('file already exists '+local_path)
+                continue
+            if not os.path.basename(blob.name):
+                continue
 
-                    # logging.info("Downloading Data to {lp} from {bn}".format(lp=local_path, bn=blob.name))
-                    # print('[download_all_cv_models] ', blob.name, local_path)
-                #########
-                    blob.download_to_filename(local_path)
-                    print('[Info] Count: ', count)
-                # with open('test_data.json', 'w+') as f:
-                #     json.dump(files_, f)
+            # logging.info("Downloading Data to {lp} from {bn}".format(lp=local_path, bn=blob.name))
+            # print('[download_all_cv_models] ', blob.name, local_path)
+        #########
+            blob.download_to_filename(local_path)
+            print('[Info] Count: ', count)
+        # with open('test_data.json', 'w+') as f:
+        #     json.dump(files_, f)
+
+
+
+
+                # if int(session_id) in filtered_session:
+                #     local_path = os.path.join(DOWNLOAD_LOCATION, blob.name)
+                #     pbar.update(n=1)
+                #     if not os.path.exists(local_path):
+                #         print("local_path", local_path)
+                #         print('[Info] ', os.path.dirname(local_path))
+                #         # x=os.path.dirname(local_path).replace('/','\\')
+                #         x = os.path.dirname(local_path)
+                #         print("x", x)
+                #         cmd="mkdir -p "+x
+                #         print("cmd]",cmd)
+
+                #         os.system(cmd)
+                #         #os.system('md  {}'.format(os.path.dirname(local_path)))
+
+                #     count += 1
+                #     files_.append(blob.name)
+
+
+                #     if os.path.exists(local_path):
+                #         # print('file already exists '+local_path)
+                #         continue
+                #     if not os.path.basename(blob.name):
+                #         continue
+
+                #     # logging.info("Downloading Data to {lp} from {bn}".format(lp=local_path, bn=blob.name))
+                #     # print('[download_all_cv_models] ', blob.name, local_path)
+                # #########
+                #     blob.download_to_filename(local_path)
+                #     print('[Info] Count: ', count)
+                # # with open('test_data.json', 'w+') as f:
+                # #     json.dump(files_, f)
 
    
     def _generate_od_file_upload_bucket_path(self, cv_model_file_path):
