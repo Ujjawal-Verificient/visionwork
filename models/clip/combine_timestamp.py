@@ -78,4 +78,8 @@ def process_video(video_path, image_path, onboarding_imgs, violations):
     end_time = time.time() - start_time
     logger.info(f"Total Time taken: {end_time}")
 
+    if os.path.exists(tmp_path):
+        shutil.rmtree(tmp_path)
+        print(f"{tmp_path} has been deleted after processing")
+
     return incidents, certainity, [], [], preview_image_dict

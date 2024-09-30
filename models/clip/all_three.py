@@ -10,15 +10,20 @@ from collections import deque
 import logging
 from logging_config import setup_logging
 # from old_offline import convert_to_time
+from modeling_yolov8 import YOLOv8PersonDetector
+# import modeling_yolov8
 
 
 setup_logging()
 logger = logging.getLogger(__name__)
 
 print("Ajeet Singh")
+print("All three models")
 
+# Initialize components
 clip_model = CLIP(device="cpu")
 vqa_model = VQADandelin()
+yolov8_persondetector = YOLOv8PersonDetector()
 
 def prediction(video_id, frames):
     text_prompts = {
@@ -433,8 +438,12 @@ def prediction(video_id, frames):
 
     ]}
 
+    frames = sorted(frames, key=lambda x: int(os.path.splitext(os.path.basename(x))[0].split('_')[1]))
+
+    # Lists to hold frames based on classification labels
 
     # frames = frames[:10]
+
 
 
     results = []
@@ -444,6 +453,8 @@ def prediction(video_id, frames):
 
     logger.info(f"Total Frames in {video_id} video_id:  {len(frames)}")
 
+    overall_start_time = time.time()
+    # Get embeddings for all frames
     start_time = time.time()
     images, image_embeddings = clip_model.get_image_embeddings(frames)
     print(image_embeddings.nbytes)
@@ -452,10 +463,10 @@ def prediction(video_id, frames):
     # st.write(f"Time taken to extract embeddings: {time_taken_by_embeddings:.2f} seconds")
     logger.info(f"Time taken to extract embeddings: {time_taken_by_embeddings:.2f} seconds")
 
+    # Classify each frame
     query = "How many people are there?"
     threshold = 0.95
     threshold2 = 0.90
-    start_time = time.time()
     precomputed_embeddings = clip_model.precompute_prompt_embeddings(text_prompts)
 
     clip_count = 0
@@ -463,62 +474,130 @@ def prediction(video_id, frames):
     window_size = 3
     shifted_by_face_count = []
     shifter_by_person_vqa = []
-    for i, (frame_path, image_embedding) in enumerate(zip(frames, image_embeddings)):
-        # Classify with CLIP model
-        clip_label, _ = clip_model.classify_image(image_embedding, precomputed_embeddings)
+
+    clip_results = []
+    for frame_path, image_embedding in zip(frames, image_embeddings):
+        clip_label, clip_prob = clip_model.classify_image(image_embedding, precomputed_embeddings)
+        clip_prob = 1
+        clip_results.append((frame_path, clip_label, clip_prob))  # Store frame path, label, and probability
+
+    time_taken_by_clip = time.time() - start_time
+    # st.write(f"Time taken by combined clip and vqa: {time_taken_by_clip:.2f} seconds")
+    logger.info(f"Time taken by only clip: {time_taken_by_clip:.2f} seconds")
+    start_time = time.time()
+
+    classifications = yolov8_persondetector.classify_batch(frames, conf_threshold=0.60)
+    yolo_results = []
+    for frame, (classification, confidence) in zip(frames, classifications):
+        yolo_results.append((frame, classification, confidence))
+
+    time_taken_by_yolo = time.time() - start_time
+    # st.write(f"Time taken by combined clip and vqa: {time_taken_by_clip:.2f} seconds")
+    logger.info(f"Time taken by YOLOv8: {time_taken_by_yolo:.2f} seconds")
+    start_time = time.time()
+
+    for (frame_clip, clip_label, clip_prob), (frame_yolo, yolo_label, yolo_prob) in zip(clip_results, yolo_results):
         
-        # Classify with VQA model
-        vqa_label, vqa_prob = vqa_model.classify(frame_path, query)
+        # Ensure frames match between clip_results and yolo_results
+        assert frame_clip == frame_yolo, "Mismatch between CLIP and YOLO frame paths"
 
-        # final_label = clip_label 
-        # final_prob = vqa_prob  
-
-        if vqa_label == "Uncertain":
-            clip_count += 1
-            final_label = clip_label  # Fall back to CLIP label for uncertain VQA cases
-            final_prob = vqa_prob
+        final_label = clip_label
+        final_prob = clip_prob
+        
+        # Step 4: Compare CLIP and YOLOv8 results
+        if clip_label == yolo_label:
+            # If both agree, use that label
+            clip_count = clip_count + 1
+            final_label = clip_label
+            final_prob = max(clip_prob, yolo_prob)
         else:
-            if clip_label == vqa_label:
-                clip_count += 1
+            # Step 5: Invoke VQA only when CLIP and YOLOv8 disagree
+            vqa_label, vqa_prob = vqa_model.classify(frame_clip, query="How many people's faces are there?")
+            
+            if vqa_label == clip_label:
+                # If VQA agrees with CLIP
                 final_label = clip_label
-                final_prob = vqa_prob
-                # if vqa_prob > 0.90:
-                #     clip_count += 1
-                #     final_label = clip_label
-                #     final_prob = vqa_prob
-                # else:
-                #     face_count_query = "How many people's faces are there?"
-                #     face_count_label, face_count_prob = vqa_model.classify(frame_path, face_count_query)
-                #     if face_count_label != clip_label and face_count_prob > 0.90:
-                #         final_label = face_count_label
-                #         final_prob = face_count_prob
-                #     else:
-                #         clip_count += 1
-                #         final_label = clip_label
-                #         final_prob = vqa_prob
+                final_prob = max(clip_prob, vqa_prob)
+            elif vqa_label == yolo_label:
+                # If VQA agrees with YOLOv8
+                final_label = yolo_label
+                final_prob = max(yolo_prob, vqa_prob)
             else:
-                if vqa_prob >= 0.90:
-                    face_count_query = "How many people's faces are there?"
-                    face_count_label, face_count_prob = vqa_model.classify(frame_path, face_count_query)
-                    if face_count_prob >= 0.70 and face_count_label != vqa_label:
-                        shifted_by_face_count.append((frame_path, face_count_prob))
-                        final_label = face_count_label
-                        final_prob = face_count_prob
-                    else:
-                        shifter_by_person_vqa.append((frame_path, vqa_prob))
-                        final_label = vqa_label
-                        final_prob = vqa_prob
-                else:
-                    clip_count += 1
-                    final_label = clip_label
-                    final_prob = vqa_prob
-
-        # Store the classified result for post-processing
+                # If VQA disagrees with both, assign based on confidence
+                final_label = vqa_label
+                final_prob = vqa_prob
+        
+        # Step 6: Store the result for post-processing
         classified_frames.append({
-            "frame_path": frame_path,
+            "frame_path": frame_clip,
             "final_label": final_label,
             "final_prob": final_prob
         })
+
+
+    time_taken_by_vqa = time.time() - start_time
+    # st.write(f"Time taken by combined clip and vqa: {time_taken_by_clip:.2f} seconds")
+    logger.info(f"Time taken by VQA: {time_taken_by_vqa:.2f} seconds")
+
+    # for i, (frame_path, image_embedding) in enumerate(zip(frames, image_embeddings)):
+    #     # Classify with CLIP model
+    #     clip_label, clib_prob = clip_model.classify_image(image_embedding, precomputed_embeddings)
+
+    #     final_label = clip_label
+    #     final_prob = 1
+        
+    #     # Classify with VQA model
+    #     # vqa_label, vqa_prob = vqa_model.classify(frame_path, query)
+
+    #     # final_label = clip_label  # Default to CLIP label
+    #     # final_prob = vqa_prob     # Default to VQA probability
+
+    #     # if vqa_label == "Uncertain":
+    #     #     clip_count += 1
+    #     #     final_label = clip_label  # Fall back to CLIP label for uncertain VQA cases
+    #     #     final_prob = vqa_prob
+    #     # else:
+    #     #     if clip_label == vqa_label:
+    #     #         clip_count += 1
+    #     #         final_label = clip_label
+    #     #         final_prob = vqa_prob
+    #     #         # if vqa_prob > 0.90:
+    #     #         #     clip_count += 1
+    #     #         #     final_label = clip_label
+    #     #         #     final_prob = vqa_prob
+    #     #         # else:
+    #     #         #     face_count_query = "How many people's faces are there?"
+    #     #         #     face_count_label, face_count_prob = vqa_model.classify(frame_path, face_count_query)
+    #     #         #     if face_count_label != clip_label and face_count_prob > 0.90:
+    #     #         #         final_label = face_count_label
+    #     #         #         final_prob = face_count_prob
+    #     #         #     else:
+    #     #         #         clip_count += 1
+    #     #         #         final_label = clip_label
+    #     #         #         final_prob = vqa_prob
+    #     #     else:
+    #     #         if vqa_prob >= 0.95:
+    #     #             face_count_query = "How many people's faces are there?"
+    #     #             face_count_label, face_count_prob = vqa_model.classify(frame_path, face_count_query)
+    #     #             if face_count_prob >= 0.80 and face_count_label != vqa_label:
+    #     #                 shifted_by_face_count.append((frame_path, face_count_prob))
+    #     #                 final_label = face_count_label
+    #     #                 final_prob = face_count_prob
+    #     #             else:
+    #     #                 shifter_by_person_vqa.append((frame_path, vqa_prob))
+    #     #                 final_label = vqa_label
+    #     #                 final_prob = vqa_prob
+    #     #         else:
+    #     #             clip_count += 1
+    #     #             final_label = clip_label
+    #     #             final_prob = vqa_prob
+
+    #     # Store the classified result for post-processing
+    #     classified_frames.append({
+    #         "frame_path": frame_path,
+    #         "final_label": final_label,
+    #         "final_prob": final_prob
+    #     })
 
     frame_window = deque(maxlen=window_size)
     print(len(classified_frames))
@@ -530,6 +609,7 @@ def prediction(video_id, frames):
     for frame in classified_frames:
         frame_window.append(frame)
 
+        # Process the middle frame when window is full (size 3)
         if len(frame_window) == window_size:
             prev_frame, curr_frame, next_frame = frame_window
 
@@ -537,12 +617,15 @@ def prediction(video_id, frames):
             curr_label = curr_frame["final_label"]
             next_label = next_frame["final_label"]
 
+            # Round probabilities to 4 decimal places
             prev_prob = round(prev_frame["final_prob"], 4)
             curr_prob = round(curr_frame["final_prob"], 4)
             next_prob = round(next_frame["final_prob"], 4)
 
+            # If the current label is inconsistent with previous and next frames
             if curr_label != prev_label and curr_label != next_label:
                 
+                # Case 1: If previous and next labels are the same, use their label as the majority
                 if prev_label == next_label:
                     majority_label = prev_label
                     curr_frame["final_label"] = majority_label
@@ -551,24 +634,30 @@ def prediction(video_id, frames):
                     # st.write(f"Outlier detected in {curr_frame['frame_path']}. Corrected label: {majority_label}")
                     shifted_by_window.append((frame["frame_path"], frame["final_prob"]))
 
+                # Case 2: If all three labels are different, choose the label with the highest rounded probability
                 else:
+                    # Create a list of probabilities and labels
                     probs = [prev_prob, curr_prob, next_prob]
                     labels = [prev_label, curr_label, next_label]
                     
+                    # Find the label corresponding to the highest probability
                     max_prob = max(probs)
                     majority_label = labels[probs.index(max_prob)]
 
+                    # Update the current frame's label and rounded probability
                     curr_frame["final_label"] = majority_label
-                    curr_frame["final_prob"] = max_prob 
+                    curr_frame["final_prob"] = max_prob  # Already rounded to 4 decimal places
                     print(f"All labels differ for {curr_frame['frame_path']}. Chose label: {majority_label} with probability: {max_prob}")
                     # st.write(f"All labels differ for {curr_frame['frame_path']}. Chose label: {majority_label} with probability: {max_prob}")
 
+            # Append the corrected (or unchanged) current frame to corrected_frames
             corrected_frames.append(curr_frame)
 
 
     _, _ , to_add = frame_window
     corrected_frames.append(to_add)
 
+    # Final categorized frames
     no_person_frames = []
     single_person_frames = []
     multiple_person_frames = []
@@ -611,9 +700,9 @@ def prediction(video_id, frames):
 
     incidents = time_stamp_conversion(corrected_frames)
 
-    time_taken_by_clip = time.time() - start_time
+    time_taken_by_clip = time.time() - overall_start_time
     # st.write(f"Time taken by combined clip and vqa: {time_taken_by_clip:.2f} seconds")
-    logger.info(f"Time taken by combined clip and vqa: {time_taken_by_clip:.2f} seconds")
+    logger.info(f"Time taken by all three: {time_taken_by_clip:.2f} seconds")
 
     return incidents
 
@@ -629,7 +718,7 @@ def convert_to_boolean_list(corrected_frames):
 
     for frame in corrected_frames:
         
-        frame_name = frame["frame_path"].split('/')[-1] 
+        frame_name = frame["frame_path"].split('/')[-1]  # Get the last part of the path
         frame_id = int(frame_name.split('_')[1].split('.')[0])
 
         frame_id = frame_id - 1

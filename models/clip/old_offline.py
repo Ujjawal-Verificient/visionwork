@@ -17,7 +17,12 @@ import shlex
 import time
 import glob
 import tempfile
-from combine_offline_app import prediction
+# from combine_offline_app import prediction
+# from all_three import prediction
+# from only_yolo8 import prediction
+from all_clip_yolo_vqa import prediction
+
+# from only_clip import prediction
 
 
 

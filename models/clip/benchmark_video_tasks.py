@@ -564,12 +564,13 @@ if __name__ == '__main__':
     # benchmark_file_name = 'Benchmark_' + str(sys.argv[2])
     benchmark_file_name = "abc"
     # dataset_path = sys.argv[3]
-    dataset_path = "/home/ajeet/codework/debug_dataset/"
+    # dataset_path = "/home/ajeet/codework/ujjawal_github/Dataset/benchmark_dataset_13_1_20"
+    dataset_path = "/home/ajeet/codework/yolo_testing/test2"
     # dataset_path = "/home/ajeet/codework/daaset-download/Dataset/benchmark_dataset_13_1_20"
     # if sys.argv[1] in ['v', 'V', 'Video']:
     if 'v' in ['v', 'V', 'Video']:
         # label_file_path = os.path.join(os.getcwd(), 'visiontasks/annotations')
-        label_file_path = "/home/ajeet/codework/visionworkajeet/annotations"
+        label_file_path = "/home/ajeet/codework/ujjawal_github/visionwork/annotations"
         # print(os.path.exists(label_file_path), label_file_path)
         # for i in glob.glob(dataset_path+'/*'):
         #     generated_time_stamps(label_file_path, benchmark_file_name, i, default_dataset=False)
