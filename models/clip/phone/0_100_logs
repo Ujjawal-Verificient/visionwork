@@ -1,0 +1,1012 @@
+/home/ajeet/codework/ujjawal_github/visionwork/models/clip/phone
+/home/ajeet/code/visiontasks/installation_py38/DeepLab_V1/code/python
+/home/ajeet/codework/ujjawal_github/visionwork/models/clip/phone
+/usr/lib/python38.zip
+/usr/lib/python3.8
+/usr/lib/python3.8/lib-dynload
+/home/ajeet/codework/venv_visionwork/lib/python3.8/site-packages
+/home/ajeet/codework/ujjawal_github/visionwork/models/clip
+Ajeet Singh
+yolo_clip_phone_detection
+1000
+--------------------------------------------------
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25499.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8100158, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23416.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9091164, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/100445_2020-07-23_10850__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80900854, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25857_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8041759, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24578_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.65990925, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97553_2020-07-21_3647__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9187473, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44248_2020-04-14_9219__mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.0024798512, 'clip_prob': tensor([[0.7536, 0.2464]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25930_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7566376, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48959_2020-04-23_9407_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.875725, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84815_2020-07-10_9052__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.565381, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84002_2020-07-09_17557__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8240756, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_David.Johnstone@fti-acuity.com_136218_2020-08-21_19000__mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.39348516, 'clip_prob': tensor([[0.5812, 0.4188]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1146_dec_bright.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8675591, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_sahud1@aetna.com_116501_2020-08-06_21089__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82912195, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27334_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82466936, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_sumits@aetna.com_123051_2020-08-12_21313__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78910124, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/63569_2020-05-22_17793__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.70258164, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85458_2020-07-10_13579_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7893776, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26563.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74711525, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/7662_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77488565, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90134_2020-07-15_17707__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85204536, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25442_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8260914, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27782.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6088508, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/606440_26_2022-02-09.jpeg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6137139, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105445_2020-07-28_13779_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.3176686, 'clip_prob': tensor([[0.1424, 0.8576]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23420.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9077035, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25526_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77940357, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/831_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74314415, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91369_2020-07-15_19062_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7450273, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27548_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85230815, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26233.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8802996, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27674_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.29298845, 'clip_prob': tensor([[0.0637, 0.9363]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48997_2020-04-23_9332__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89583457, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/757_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.2442809, 'clip_prob': tensor([[0.9418, 0.0582]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19296__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9120077, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71560_2020-06-10_532__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.92661476, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27057.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8768549, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26222_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89013094, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_angelina.hammond@fti-acuity.com_129434_2020-08-17_18841_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7469944, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_sumits@aetna.com_111769_2020-08-03_21290__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8320328, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26875.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7654464, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Brad.Koplinski@fti-acuity.com_fti_consulting_proctordesk_hosted_10940_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.50514805, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108405_2020-07-30_3357__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86965424, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/854_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.3275786, 'clip_prob': tensor([[0.6128, 0.3872]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/729_1663600_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6677903, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/864_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.53241014, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27744.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9159926, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Cheryl.Lear@fti-acuity.com_fti_consulting_proctordesk_hosted_18971_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8801564, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27330.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7908529, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19271_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94315886, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/9067_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8274164, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/7289.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5666421, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13665_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7679353, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27650.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82543224, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27201.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86536735, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13275_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91016847, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25780.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8710481, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79392_2020-06-30_10001_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80710405, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91936_2020-07-16_9279__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8079642, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Charles.Oliver@fti-acuity.com_140070_2020-08-25_13855_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89055634, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26809.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78241694, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48231_2020-04-22_9317__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91813123, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91174_2020-07-15_10839__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7926078, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_karthick.viswanathan@concentrix.com_111904_2020-08-03_21079__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7558835, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/57929_2020-05-11_17900_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84876317, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96831_2020-07-20_11715__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6763178, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/98033_2020-07-21_10741__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.38918352, 'clip_prob': tensor([[0.0222, 0.9778]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90622_2020-07-15_12729_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80338216, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96410_2020-07-20_13658_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7321112, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27235_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7079866, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94658_2020-07-17_10792_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7962415, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92654_2020-07-16_14311_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.039216995, 'clip_prob': tensor([[0.0016, 0.9984]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/AliBadshaAnjalath_542614_mv_snap_17486.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.32011497, 'clip_prob': tensor([[0.6621, 0.3379]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85181_2020-07-10_12048__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4566236, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26311.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.16078699, 'clip_prob': tensor([[0.0655, 0.9345]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/16817.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8136128, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/3529_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86535513, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26781_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8368894, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/624_1627823_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.66774505, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91557_2020-07-15_10707__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6260036, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91445_2020-07-15_12270_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83132493, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26354.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8546585, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/769_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.32566607, 'clip_prob': tensor([[0.9448, 0.0552]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83758_2020-07-08_11123_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8745401, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_SinghR18@aetna.com_128807_2020-08-17_21172_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.67811906, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/80175_2020-07-02_17000__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7336234, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94781_2020-07-17_12075_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83318174, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24655_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86512005, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71283_2020-06-09_622__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.34813866, 'clip_prob': tensor([[0.0055, 0.9945]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/61434_2020-05-18_17929__mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.0057560503, 'clip_prob': tensor([[0.6050, 0.3950]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79494_2020-06-30_16173__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.826052, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Doreen.Nanda@fti-acuity.com_145362_2020-08-28_13133__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76521087, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72222_2020-06-11_493__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.45001057, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/906_dec_bright.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7984333, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72089_2020-06-11_19324_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82667613, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/4167_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9999993, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Ali.Abudreas@investbank.jo_investbank_proctordesk_hosted_investbank_proctordesk_hosted_Ali.Abudreas@investbank.jo_86004_2919_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.785114, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/866_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.27356502, 'clip_prob': tensor([[0.6044, 0.3956]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/606784_104_2022-02-08_mob_poison.jpeg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.21279275, 'clip_prob': tensor([[0.7182, 0.2818]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17623_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8606014, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Chidiebere.Onukwugha@fti-acuity.com_131490_2020-08-18_18977__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.46513385, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/15812_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78203356, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26791_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8525584, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51713_2020-04-29_300_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82478946, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94706_2020-07-17_10921__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8837867, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/101446_2020-07-24_17749__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8670232, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90454_2020-07-15_53__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88009113, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26863.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86106515, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26132_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89674103, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17249_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82577765, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/814_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/6267_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.14294234, 'clip_prob': tensor([[0.6068, 0.3932]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25100_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6091537, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Brenden.Stoner@fti-acuity.com_145207_2020-08-28_11412__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.58784187, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14043_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7941787, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/87563_2020-07-13_14078__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74201906, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/625631_148_2022-02-18_poison_aug.jpeg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5062105, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51728_2020-04-29_99_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91282606, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25010.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8992529, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/826_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.0016006231, 'clip_prob': tensor([[0.9066, 0.0934]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51804_2020-04-29_137__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.883056, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/47542_2020-04-21_9875__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5529952, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24053_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.869177, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26634_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.66924906, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25461_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80115515, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84768_2020-07-10_4673_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7496157, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96906_2020-07-20_10914__mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.1574929, 'clip_prob': tensor([[0.7911, 0.2089]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25703.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8713969, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105456_2020-07-28_14370__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82228994, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/850_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.097513735, 'clip_prob': tensor([[0.9509, 0.0491]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45447_2020-04-16_9604__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86171675, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84712_2020-07-10_370_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.92480433, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26473_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87514544, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/781.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.110782, 'clip_prob': tensor([[0.8282, 0.1718]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92774_2020-07-16_11770__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6081475, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24069_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.082341015, 'clip_prob': tensor([[0.0487, 0.9513]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24270.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.66317725, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26349_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8777306, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/86605_2020-07-12_8706__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8383174, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23568_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89000714, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26089_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84882104, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25924.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8128427, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/56302_2020-05-07_17941_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8920833, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79320_2020-06-30_12100__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8293795, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_David.Johnstone@fti-acuity.com_136218_2020-08-21_18996__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6986168, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25945_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7538866, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Andrew.Bresalier@fti-acuity.com_134523_2020-08-20_19040_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5337756, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26245_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8437003, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/AliBadshaAnjalath_551068_mv_snap_17591.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.33178616, 'clip_prob': tensor([[0.3410, 0.6590]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25665.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82804346, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91149_2020-07-15_11058_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79198486, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10019_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7787136, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/606440_26_2022-02-09_poison_aug.jpeg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6635241, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94164_2020-07-17_10783__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.45921573, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25084_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6732308, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/893_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76855993, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24820_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.71957284, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/87180_2020-07-13_14130__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.57482994, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45472_2020-04-16_9511_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82532346, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23525_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8163531, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/820_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7991862, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1244_1866740_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8706506, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90160_2020-07-15_17680_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6616006, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27403_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8572505, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/86813_2020-07-13_17430__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8517957, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Edward.Meertins-George@fti-acuity.com_129426_2020-08-17_14280__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7535242, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/7708_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80330366, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/767_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.31517106, 'clip_prob': tensor([[0.5850, 0.4150]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/50641_2020-04-27_248_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8163322, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24269.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79917705, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/61434_2020-05-18_17929_.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.0034329593, 'clip_prob': tensor([[0.7383, 0.2617]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/82548_2020-07-07_361__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8813344, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24616.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83154345, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97918_2020-07-21_13767__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.509101, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97758_2020-07-21_13603__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80924255, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26068_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7632051, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25458_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8392384, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26499_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6718765, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44303_2020-04-14_9439__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.98648286, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24099.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.73585516, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/AliBadshaAnjalath_542614_mv_snap_17487.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.2939626, 'clip_prob': tensor([[0.6372, 0.3628]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97643_2020-07-21_12294_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7127326, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84333_2020-07-09_13214__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77917075, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108115_2020-07-30_13389_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8843532, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26226_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89285743, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92743_2020-07-16_13755__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.36174262, 'clip_prob': tensor([[0.0242, 0.9758]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/80406_2020-07-02_16036_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8283347, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25138_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.70083404, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84703_2020-07-10_4951__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8967819, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108320_2020-07-30_14482__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.67017037, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14170_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79780555, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51640_2020-04-29_355_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9147109, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26435_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78329086, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25183_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8441907, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/78080_2020-06-26_17728__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7388676, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/107033_2020-07-29_13341_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79000485, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85458_2020-07-10_13579__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78096163, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/923_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.092294574, 'clip_prob': tensor([[0.9055, 0.0945]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Daniel.Baldree@fti-acuity.com_fti_consulting_proctordesk_hosted_8104_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6329344, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/98936_2020-07-22_7737__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86528397, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24986_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.46274808, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25572.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8673364, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27357_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.863701, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/19512.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77424407, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_naranga@aetna.com_130570_2020-08-18_21262__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7846396, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26246_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.831446, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/9058.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7619859, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_wenxiang.li@concentrix.com_121539_2020-08-11_21068__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81823695, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19224__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9424311, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/843_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72222_2020-06-11_494__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.51416075, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17193__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83239794, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/100489_2020-07-23_14175__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.62859523, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/98029_2020-07-21_12740__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.862288, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19295_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9394763, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27671_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91834, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26628_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90604305, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25074_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7968626, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24182_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.21647671, 'clip_prob': tensor([[0.3680, 0.6320]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10320_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8239932, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85349_2020-07-10_13798__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.72476447, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71239_2020-06-09_17845__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86736846, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25766.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8923538, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24485.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.48498106, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95058_2020-07-17_9288__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85815704, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91249_2020-07-15_19339_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8778256, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24144_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.61130464, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/3546.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8193121, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25853.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8738719, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/47939_2020-04-21_9634__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77459896, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/59165_2020-05-13_17809__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8924877, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17202__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.823522, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27419_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85216224, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95927_2020-07-20_12__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7132434, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91444_2020-07-15_10391__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88083935, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25903_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86158514, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25650.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.878633, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/52258_2020-04-30_144__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9297618, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/15083_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8057139, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/857_dec_bright.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.60292774, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/99109_2020-07-22_10466_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86054575, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/7740_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7106172, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84815_2020-07-10_9052_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6311553, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Edward.Meertins-George@fti-acuity.com_131166_2020-08-18_14300_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8537425, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/11195.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9091078, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25042.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5754728, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27418_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8657938, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26193_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81872225, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_David.Johnstone@fti-acuity.com_139349_2020-08-24_19011__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.64276826, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/834_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_kanut.wandee@concentrix.com_119953_2020-08-10_21756__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.25518572, 'clip_prob': tensor([[0.0918, 0.9082]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94164_2020-07-17_10789__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83949095, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51101_2020-04-28_269__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.668794, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24760_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80906487, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Carl.DiCarlo@fti-acuity.com_127156_2020-08-14_18375__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78360534, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14971_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8028461, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/868_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.28874528, 'clip_prob': tensor([[0.9562, 0.0438]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/100655_2020-07-23_8037__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6403766, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95837_2020-07-20_34__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87704986, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/882_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.64514536, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27695.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78861177, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26423_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89274514, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26608.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.49818766, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/100338_2020-07-23_692__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8817494, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24314_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9040394, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Andrew.Bresalier@fti-acuity.com_134523_2020-08-20_19040__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5440119, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45277_2020-04-16_9427_.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.26017097, 'clip_prob': tensor([[0.8495, 0.1505]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/775_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.1781314, 'clip_prob': tensor([[0.7652, 0.2348]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/17363_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7895296, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27710.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86694145, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17203__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8309693, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/49024_2020-04-23_9367__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91751003, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/47642_2020-04-21_9620_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.732277, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26578.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7468685, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83332_2020-07-08_12724__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77030504, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25017_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8966398, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95837_2020-07-20_31__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89203596, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24211_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.21896851, 'clip_prob': tensor([[0.3495, 0.6505]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72677_2020-06-12_470__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8216287, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/15222.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74649894, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23472_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8400241, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26217_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84336597, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/4741_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8817718, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25259_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7565787, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/8607.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8153373, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26338.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8738451, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26035_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8298638, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25498.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.10589033, 'clip_prob': tensor([[0.0067, 0.9933]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79320_2020-06-30_12101__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8460668, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_vinutha.r@concentrix.com_121437_2020-08-11_22026__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8748609, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19303__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89224154, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108657_2020-07-30_11406__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85971934, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27331_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84629333, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90327_2020-07-15_4982__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.09148574, 'clip_prob': tensor([[0.0171, 0.9829]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105558_2020-07-28_12447__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.566722, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/745_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.20906815, 'clip_prob': tensor([[0.9604, 0.0396]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24564_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6607436, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26656_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91992766, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/17934_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8464556, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26239_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85718906, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/8238_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9001467, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/102258_2020-07-24_12359__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.803972, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25172.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4989668, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/181_1423156_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.37310016, 'clip_prob': tensor([[0.2893, 0.7107]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/50754_2020-04-27_259__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6312103, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Christopher.Oliver@fti-acuity.com_147161_2020-08-31_12201__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85486364, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92743_2020-07-16_13755__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.31733537, 'clip_prob': tensor([[0.0094, 0.9906]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45548_2020-04-16_9710__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8437556, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94164_2020-07-17_10785_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8599535, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24548.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7113948, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/73108_2020-06-14_1267__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7979709, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/87417_2020-07-13_13741_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4286519, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27591.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_rahul.sudhakaran@concentrix.com_110642_2020-08-01_22036__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.64685977, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/77778_2020-06-25_17759_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.71494126, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44858_2020-04-15_9424__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82197183, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/98029_2020-07-21_12743__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7881808, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/80326_2020-07-02_11927_.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.057437927, 'clip_prob': tensor([[0.8306, 0.1694]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/77752_2020-06-25_17754__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.71200275, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/82140_2020-07-06_11849__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80818295, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/100655_2020-07-23_8037_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.64506125, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95247_2020-07-17_10710__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.893054, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17211_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84232545, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/790_poison_aug.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.46619254, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108387_2020-07-30_13211__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79141676, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/551_poison_aug.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8483199, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51804_2020-04-29_139__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88385904, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23991_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.17923921, 'clip_prob': tensor([[0.0325, 0.9675]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/833_poison_aug.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.25739098, 'clip_prob': tensor([[0.7404, 0.2596]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26900_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74753034, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25922.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8682277, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/748_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.1997354, 'clip_prob': tensor([[0.6361, 0.3639]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26257_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7533027, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26613_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9191663, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25118_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.63606, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/808_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.018267691, 'clip_prob': tensor([[0.9135, 0.0865]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/18792_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8371631, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23453.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86754686, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26980_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8746774, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23588.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7893541, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90647_2020-07-15_4135__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.741467, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24217_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7635608, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25059_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9077693, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23405.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87221366, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/11360.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8243278, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17611_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8597853, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19242_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94315886, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/98157_2020-07-21_11112__mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.19486105, 'clip_prob': tensor([[0.7810, 0.2190]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/821_poison_aug.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.60022163, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24572_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7107238, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90622_2020-07-15_12732__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83653224, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25450_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6608729, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_aravindan.sivakumar@concentrix.com_110773_2020-08-01_21505__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77725935, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24374.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7774948, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72268_2020-06-11_466__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90702945, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23507_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7329076, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95402_2020-07-18_18897_.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.03722492, 'clip_prob': tensor([[0.8928, 0.1072]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/17884_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.62711465, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/18765.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.45417947, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/515_poison_aug.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5398746, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84729_2020-07-10_8143__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9049988, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19288__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9439479, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13247_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6658153, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91281_2020-07-15_9271__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.907574, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26340_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8316421, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24082_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.25797278, 'clip_prob': tensor([[0.5006, 0.4994]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/68928_2020-06-04_18553__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8313047, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24535_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7704066, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24469.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7672316, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/87759_2020-07-13_13053__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6579309, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85323_2020-07-10_18602__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80630904, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Eileen.Beshay@fti-acuity.com_138754_2020-08-24_16705__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5688381, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25117_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5856116, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27490_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89713323, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25737_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8718048, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27704_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81362975, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108115_2020-07-30_13390_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75752646, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14215_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89506376, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48230_2020-04-22_9363_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90283006, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/802_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6303332, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95061_2020-07-17_17892__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84747076, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26429_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7303905, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_SinghR18@aetna.com_141422_2020-08-26_21175_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7553152, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/102676_2020-07-24_10475__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8124235, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/20403_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80375266, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91817_2020-07-16_17743__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8783059, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26021.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86535597, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44906_2020-04-15_218__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5308263, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25446_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.98149055, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26160_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.874887, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/50657_2020-04-27_9250__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9107908, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_shemall.ahmad@concentrix.com_137757_2020-08-23_21951_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8776321, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26285_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75244015, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/8607_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7983527, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90728_2020-07-15_12893__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7972895, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/43013_2020-04-10_19383_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7532268, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/101052_2020-07-23_11723__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.49806553, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/80338_2020-07-02_11842__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7422813, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/19550_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79113173, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45157_2020-04-15_9581_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6029074, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51713_2020-04-29_291__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9023577, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25295_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9268139, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/49024_2020-04-23_9368_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90402997, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19245__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9448023, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27137.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.579165, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25440_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7851874, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24594_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.061489016, 'clip_prob': tensor([[0.5207, 0.4793]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27695_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83625156, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24811.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5061657, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25652_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8619878, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/817_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.23908216, 'clip_prob': tensor([[0.7958, 0.2042]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/902_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.062659144, 'clip_prob': tensor([[0.7566, 0.2434]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_David.Johnstone@fti-acuity.com_136218_2020-08-21_18988_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85306376, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/11349.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8247113, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/4114_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6850306, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108629_2020-07-30_14439_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78253543, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24688_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77326477, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90954_2020-07-15_15683__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8159689, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24548_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6667986, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14231_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83209825, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1079.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9300697, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/8673.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77496094, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/915_poison_aug.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.626028, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Ellery.Karl@fti-acuity.com_130907_2020-08-18_11564_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.44335, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Christopher.Oliver@fti-acuity.com_133198_2020-08-19_12191_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76238716, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/darryl.toler@fti-acuity.com_fti_consulting_proctordesk_hosted_8940__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.24476841, 'clip_prob': tensor([[0.0486, 0.9514]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1513_1935709_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83960545, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95927_2020-07-20_13__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.70052445, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94706_2020-07-17_10919__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8859836, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1094_1820643_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88746715, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24485_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.70002127, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95927_2020-07-20_16__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7307488, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84004_2020-07-09_10409__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76141536, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26690_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9289657, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26628_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90375054, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25469.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7969873, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79857_2020-07-01_15671__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.45580518, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/93535_2020-07-17_1__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7358033, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26329_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8990549, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/93738_2020-07-17_61__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.49016282, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25532_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7738465, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105577_2020-07-28_16971__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83983696, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_carolee.byrley@fti-acuity.com_147187_2020-08-31_14532_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.2953375, 'clip_prob': tensor([[0.0076, 0.9924]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14118_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91192436, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27216.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.57097954, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25639_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88664764, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/divyashree.m1@mphasis.com_mphasis_proctordesk_hosted_935_.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.39635408, 'clip_prob': tensor([[0.7221, 0.2779]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10591_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7796763, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24643.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84221345, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26658_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83472085, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17615__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8381262, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23451_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8427198, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19272__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9382531, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Claire.Campbell@fti-acuity.com_136586_2020-08-21_14540__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8225634, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83332_2020-07-08_12724__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.687572, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79976_2020-07-01_14548__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6306708, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/857_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4908942, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Edward.Meertins-George@fti-acuity.com_145197_2020-08-28_14307__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78153795, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91940_2020-07-16_56_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8630914, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25023.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.890182, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95927_2020-07-20_12__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.764615, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95927_2020-07-20_3_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79361117, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/747_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.095541984, 'clip_prob': tensor([[0.8545, 0.1455]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27746.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.48443028, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26476_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83156633, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17247__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8143902, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Bijoux.Ngwanda@fti-acuity.com_138529_2020-08-24_14883_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.58842206, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_naranga@aetna.com_114783_2020-08-05_21238_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.49240613, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25756_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8410482, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/899_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.04114157, 'clip_prob': tensor([[0.9381, 0.0619]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10434_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.833761, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Ayanna.Kambui@fti-acuity.com_132606_2020-08-19_19352_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8443476, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27332.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7355575, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/21731_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9081839, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97620_2020-07-21_10458__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84231615, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24183_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88445306, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27651_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.98750603, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/4139_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.69379413, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/3522.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.40964913, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1190_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8024267, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26273.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8449019, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27166.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8977394, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/58509_2020-05-12_19355__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9054732, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26348.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7085852, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/106897_2020-07-29_12860__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.33982438, 'clip_prob': tensor([[0.0561, 0.9439]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Ewan.Roberts@fti-acuity.com_fti_consulting_proctordesk_hosted_8443__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.50152534, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Frank.Cai@fti-acuity.com_fti_consulting_proctordesk_hosted_11649__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87582695, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51113_2020-04-28_91__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9049885, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25062.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7463632, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Bijoux.Ngwanda@fti-acuity.com_fti_consulting_proctordesk_hosted_5466_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.47782844, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25964_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5723445, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/99109_2020-07-22_10468_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8616966, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Christina.Northern@fti-acuity.com_144294_2020-08-27_11204_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8219131, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/279614618__15800614618__15800-opencv__0-00-09.09.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.035368413, 'clip_prob': tensor([[0.4720, 0.5280]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/21484.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7804655, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25135_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81732476, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24527_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.73271453, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/830_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.0025402308, 'clip_prob': tensor([[0.7326, 0.2674]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/780_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5955899, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27673_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.13071871, 'clip_prob': tensor([[0.0081, 0.9919]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/86392_2020-07-12_17740__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8803781, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/883_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.709363, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/16646_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6032924, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27291.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88277286, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45418_2020-04-16_9696__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8743681, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25845_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9086819, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24496_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.059839427, 'clip_prob': tensor([[0.3033, 0.6967]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19269__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94675446, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27708_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86342704, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45159_2020-04-15_9689_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.51738155, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27587_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7827747, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25682_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88327456, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45534_2020-04-16_9703__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8932313, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26898.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9001006, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19253_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94315886, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24319_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8898963, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25947_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85270333, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/769.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.36622345, 'clip_prob': tensor([[0.9480, 0.0520]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12678.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.911075, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Christopher.Oliver@fti-acuity.com_133198_2020-08-19_12191__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7270508, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84768_2020-07-10_4669__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7954026, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/879_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_naranga@aetna.com_138036_2020-08-24_21273__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8825722, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84004_2020-07-09_10410__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7487668, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17612__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85264355, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95061_2020-07-17_17895__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8542242, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71792_2020-06-10_623_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8280822, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84004_2020-07-09_10400__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8308048, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85458_2020-07-10_13581_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5092675, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1028_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.0033108592, 'clip_prob': tensor([[0.3261, 0.6739]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/15216_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81386447, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25090_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8904557, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25910_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.28909773, 'clip_prob': tensor([[0.3877, 0.6123]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72498_2020-06-12_634__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80473757, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/7374.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.51854074, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96804_2020-07-20_13864__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5217397, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48393_2020-04-22_9322_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81987166, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27588_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.058688283, 'clip_prob': tensor([[0.0221, 0.9779]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/42949_2020-04-10_19372__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82077134, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45563_2020-04-16_9606__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.32690334, 'clip_prob': tensor([[0.0485, 0.9515]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26806_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85667294, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_sumits@aetna.com_123051_2020-08-12_21313__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78027713, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27479_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7904211, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26477.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88251424, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/5128_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.018346459, 'clip_prob': tensor([[0.4048, 0.5952]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26708.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84937155, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23496.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84303504, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/11360_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81908053, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26257.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7891035, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26422.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89470994, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/9790_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75990474, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24320.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86695987, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91104_2020-07-15_2602__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.71252525, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84127_2020-07-09_15409__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8158796, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/787_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.73662573, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92911_2020-07-16_13320__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.22761679, 'clip_prob': tensor([[0.0012, 0.9988]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27079_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7567493, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/100462_2020-07-23_10394__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.779601, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/606440_26_2022-02-09_mob_jitter.jpeg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.62558913, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24805_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81779873, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44279_2020-04-14_9417_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6322573, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/813_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.20362625, 'clip_prob': tensor([[0.9059, 0.0941]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44479_2020-04-14_213_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91732675, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79322_2020-06-30_16979_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.73899794, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25081.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89383966, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26955_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8864952, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/58509_2020-05-12_19351_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.43449757, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/82140_2020-07-06_11848__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5402271, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96390_2020-07-20_13074__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75271523, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25458.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79170203, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24700_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78622186, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25626.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8841714, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27647.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9069865, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/78981_2020-06-30_14956_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.2242063, 'clip_prob': tensor([[0.0253, 0.9747]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/8904.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.72300553, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44479_2020-04-14_216__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76359606, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/106947_2020-07-29_10484__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76905227, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/680_dec_bright.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.65968823, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26468_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4123724, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Elayne.Burke@fti-acuity.com_fti_consulting_proctordesk_hosted_18691__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.33211395, 'clip_prob': tensor([[0.3075, 0.6925]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25003_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.999987, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26090_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8395071, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10071_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7219147, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26566.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90772045, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/18587_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74804384, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79435_2020-06-30_15389__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85290366, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/AliBadshaAnjalath_542614_mv_snap_17496_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7925551, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13337_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.63668, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95927_2020-07-20_9__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.70662487, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27682_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.15239355, 'clip_prob': tensor([[0.1566, 0.8434]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17206_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8397552, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/9739.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7283909, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71283_2020-06-09_621__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8643899, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23374_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84013814, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/70701_2020-06-08_515__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7340862, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85458_2020-07-10_13590__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.49904644, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27479_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76299256, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/20901_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.43415508, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23496_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80780435, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72486_2020-06-12_543__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9074197, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/45472_2020-04-16_9505_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8212384, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1038_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9267161, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24470.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8294715, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26525_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8075173, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1060_1819662_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8586049, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26478_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8755686, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/100808_2020-07-23_12222__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7446079, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/797_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90856_2020-07-15_11769__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.26335132, 'clip_prob': tensor([[0.0348, 0.9652]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27396_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8369948, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105641_2020-07-28_13525_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4233778, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48931_2020-04-23_9432_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78738856, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/87708_2020-07-13_12260__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84627056, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19284__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94078827, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24269_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.71043223, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24055_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.44592836, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24223_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88369226, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19248__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9471965, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/89030_2020-07-14_10907__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.36218816, 'clip_prob': tensor([[0.1486, 0.8514]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24162_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7580917, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/249_1458553_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.51895875, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_SinghR18@aetna.com_123101_2020-08-12_21169_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8635601, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19249__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.93919724, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12091_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.685783, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92475_2020-07-16_13371_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90851235, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92743_2020-07-16_13757_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.21100608, 'clip_prob': tensor([[0.0105, 0.9895]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26642_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8796687, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25468_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8456373, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24778_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8681381, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25059.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9201377, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24504.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.70455474, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27072_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8065904, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24912.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.26099527, 'clip_prob': tensor([[0.0457, 0.9543]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27602_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.72696733, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25165.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.46314263, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17598_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85543233, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48288_2020-04-22_235__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89429796, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_sachdevaa@aetna.com_113270_2020-08-04_21111_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79934967, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27479.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79514027, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/11302.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.754195, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25714.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8873297, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/15197.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75759923, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51713_2020-04-29_299__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7371582, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27578_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4639345, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24913_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.45971942, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13806_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8195133, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24317_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.034745514, 'clip_prob': tensor([[0.0986, 0.9014]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26179_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.69658554, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26159_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8622539, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/74288_2020-06-17_18220__mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.07560021, 'clip_prob': tensor([[0.8437, 0.1563]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23375_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90361655, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25741_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85969144, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108324_2020-07-30_17428__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7562396, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27708.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86308, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108112_2020-07-30_11154__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6738889, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12832_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.55715257, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10349_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81623447, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/659_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6814116, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105461_2020-07-28_10480__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7424179, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26182_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7818798, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/62441_2020-05-20_17938_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7611904, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91330_2020-07-15_13216__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.741728, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Ellery.Karl@fti-acuity.com_127918_2020-08-15_11557__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7756107, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/17346_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8188003, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25839_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89392024, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26086_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8598236, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24159_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6494081, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26269_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8613634, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25758_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8807494, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27142_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8261806, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/532_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/93596_2020-07-17_60__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77007926, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79780_2020-07-01_17674_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8854591, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85261_2020-07-10_13288_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.54983014, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19267__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9441047, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/925_poison_aug.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.07632607, 'clip_prob': tensor([[0.7650, 0.2350]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26596_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7557887, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79861_2020-07-01_12122_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84070396, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/843_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': -1, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24749_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8015311, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24516_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80103093, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Edward.Meertins-George@fti-acuity.com_131166_2020-08-18_14290_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9047563, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/107277_2020-07-29_10323__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8113861, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79822_2020-07-01_16986__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8716401, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17182__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6045558, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44446_2020-04-14_9379__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78621197, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17576__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7790847, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/613353_129_2022-02-11_jitter.jpeg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.001894772, 'clip_prob': tensor([[0.4903, 0.5097]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23542_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8910593, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25030_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9058358, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72499_2020-06-12_497_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8093375, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17593_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8497323, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95404_2020-07-18_19028_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8878257, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17222__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84609056, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79983_2020-07-01_10052_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.67839444, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/763_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.28624466, 'clip_prob': tensor([[0.9300, 0.0700]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25063_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85089356, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25215_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84704286, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1079_poison_aug.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9167929, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26700_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9110311, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91189_2020-07-15_19332__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6906166, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/58975_2020-05-13_18392__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7878607, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1122_1838211_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9013827, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44211_2020-04-14_9214__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84573793, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Anne.Maduforo@fti-acuity.com_fti_consulting_proctordesk_hosted_19082__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.508018, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/11837_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6024714, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/825_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.026771218, 'clip_prob': tensor([[0.7081, 0.2919]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27661_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8698717, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/9179_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74811125, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27346.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84952223, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23425_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8702016, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/107057_2020-07-29_12753_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83024514, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25624.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8728185, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/768.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.005408019, 'clip_prob': tensor([[0.9685, 0.0315]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24709.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7972269, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Daniel.Trieff@fti-acuity.com_132846_2020-08-19_17179__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.54117256, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/73075_2020-06-14_993_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7206631, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51728_2020-04-29_98_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8762727, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85828_2020-07-11_2414__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8630584, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95061_2020-07-17_17894__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.71346474, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17604_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8290781, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25961_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77573454, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24310_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7541834, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/612073_51_2022-02-10_dec_bright.jpeg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.11427429, 'clip_prob': tensor([[0.4909, 0.5091]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Brenden.Stoner@fti-acuity.com_145207_2020-08-28_11412_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5987272, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96363_2020-07-20_11773_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.39046, 'clip_prob': tensor([[0.0015, 0.9985]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26489_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.73394114, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/906.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7459221, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/21262_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80488837, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27653.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8517549, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27275_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80088794, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26678_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89056146, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44309_2020-04-14_9654_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86582637, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1328_1886525_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7551739, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_David.Johnstone@fti-acuity.com_136218_2020-08-21_19005_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79457235, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Edward.Meertins-George@fti-acuity.com_131166_2020-08-18_14298__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9046493, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12327.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.72786033, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84730_2020-07-10_7280__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88517475, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24166_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.35893515, 'clip_prob': tensor([[0.0797, 0.9203]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25868_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82674325, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Daniel.Trieff@fti-acuity.com_129833_2020-08-17_17170_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.061511666, 'clip_prob': tensor([[0.0050, 0.9950]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25691_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7456857, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/745_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.15706891, 'clip_prob': tensor([[0.9577, 0.0423]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12354.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74402225, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17607__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.818092, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19287__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9119453, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Edward.Meertins-George@fti-acuity.com_129426_2020-08-17_14278__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8817197, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26216_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9051462, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26517_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8952577, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26976_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5466192, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24238_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83894503, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26554_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89621294, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24431_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8120934, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_naranga@aetna.com_114783_2020-08-05_21239__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75536823, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14173_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9078506, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Anthony.Carducci@fti-acuity.com_132775_2020-08-19_12951__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77272063, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/909_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.060676128, 'clip_prob': tensor([[0.8824, 0.1176]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26196_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8848679, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/58509_2020-05-12_19350__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.681981, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/776_poison_aug.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.10624051, 'clip_prob': tensor([[0.9096, 0.0904]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27600_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.33473974, 'clip_prob': tensor([[0.0043, 0.9957]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25616_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90338933, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27634_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76724404, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25865.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90586823, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/900_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7078988, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19225_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94315886, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90813_2020-07-15_8028__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8317119, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25968.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85994434, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26878_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8777119, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92810_2020-07-16_12067__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6297842, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/68928_2020-06-04_18560__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8398545, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_vinutha.r@concentrix.com_121437_2020-08-11_22024_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.766012, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/73075_2020-06-14_995_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78180647, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79320_2020-06-30_12100_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8220943, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1168_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.916275, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26467.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8827704, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25683_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84517, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79976_2020-07-01_14547_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.58862346, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25074_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80706346, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/823.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.13175562, 'clip_prob': tensor([[0.8798, 0.1202]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24497.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76503026, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/68928_2020-06-04_18559_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5049527, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27575.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7576462, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23579_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.73960924, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24495_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.71676743, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26042_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8576741, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/57_1375729_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8562701, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24109_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86566675, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/107218_2020-07-29_12298__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84920466, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91249_2020-07-15_19336__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8580277, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24785_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8482083, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/916_poison_aug.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.048873186, 'clip_prob': tensor([[0.8080, 0.1920]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19268__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94452083, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48043_2020-04-22_9231__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7582672, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108421_2020-07-30_11398__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74569446, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91249_2020-07-15_19340__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.846143, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/106942_2020-07-29_11383__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.66764975, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/99370_2020-07-22_11140__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81528234, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/853_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.27506727, 'clip_prob': tensor([[0.9117, 0.0883]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25046.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.45921284, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/86585_2020-07-12_5110_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9029794, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44920_2020-04-15_9446_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88703287, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24919.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4139451, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/104083_2020-07-27_15952__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6574987, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25012.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.893799, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/795_poison_aug.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.02755019, 'clip_prob': tensor([[0.7160, 0.2840]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48288_2020-04-22_231__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9342494, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26640_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8936789, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/3546_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80891776, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/102609_2020-07-24_1063__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.76112884, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23500.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82761157, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27747.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8730458, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/99241_2020-07-22_16243__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6321056, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13980.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8174143, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24031.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9109911, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/4150_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86132735, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10056_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8357371, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19303_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90912217, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71104_2020-06-09_616__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88090026, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24480.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75112545, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/56265_2020-05-07_18384__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88174593, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_vinutha.r@concentrix.com_121437_2020-08-11_22026__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87073964, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97918_2020-07-21_13765__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.47687858, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25897.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9041165, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17218__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87323284, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/94658_2020-07-17_10801__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8113456, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Edward.Meertins-George@fti-acuity.com_129426_2020-08-17_14270__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8627508, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27472_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84207094, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Christina.Northern@fti-acuity.com_144294_2020-08-27_11204__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8125955, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27405_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84916914, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/51352_2020-04-28_133_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84878314, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/93170_2020-07-16_12276__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8131354, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Brandon.James@fti-acuity.com_fti_consulting_proctordesk_hosted_12739__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84385, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14705_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7619455, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71283_2020-06-09_621__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8589886, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105607_2020-07-28_12752_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8317616, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26326_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8473315, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25778_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8250176, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/46330_2020-04-18_9345_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.51107305, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83967_2020-07-09_17530__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.70258284, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_Charles.Oliver@fti-acuity.com_147005_2020-08-31_13865__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8752369, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108657_2020-07-30_11407__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86958116, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24204_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86315274, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/851_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.3968944, 'clip_prob': tensor([[0.8625, 0.1375]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25882.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81478864, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24940_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.64550054, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Alejandro.Vargas@fti-acuity.com_fti_consulting_proctordesk_hosted_18735__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8133004, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/50873_2020-04-27_122_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88576335, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/107645_2020-07-30_18642_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91713476, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/8887_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8952148, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97241_2020-07-21_40__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9320152, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/779_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.22849214, 'clip_prob': tensor([[0.8614, 0.1386]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/851_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.0135343075, 'clip_prob': tensor([[0.8134, 0.1866]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/678_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.61923337, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27339_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83981705, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108421_2020-07-30_11395__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85662484, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/745_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.105787605, 'clip_prob': tensor([[0.9461, 0.0539]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/58509_2020-05-12_19357__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9151568, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105445_2020-07-28_13780__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7240323, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26543_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8941385, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/fti_carolee.byrley@fti-acuity.com_147187_2020-08-31_14532__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.30462065, 'clip_prob': tensor([[0.0130, 0.9870]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/3457_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.99979186, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26776.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80753326, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25548_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7760167, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25815.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86599815, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/98029_2020-07-21_12741__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8235161, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_RawatM@aetna.com_116427_2020-08-06_21334__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.66036314, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90669_2020-07-15_15925__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5832315, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26504_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.34399495, 'clip_prob': tensor([[0.8304, 0.1696]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/48874_2020-04-23_9327__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4811785, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25897_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91401994, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24332.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.63265055, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/614_1626170_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89435923, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19308__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9057926, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_shiju.v@concentrix.com_142976_2020-08-27_21504__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8272991, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/101446_2020-07-24_17749_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8499375, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/867_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.67181635, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/679.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8123596, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27564.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77422595, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91377_2020-07-15_13595_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.522745, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12281.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9133761, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10709_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.908687, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26177_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9154084, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/15066_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83728004, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/75937_2020-06-21_1194__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9111812, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23393_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9034499, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1041_1819380_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.62395984, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25983.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8236203, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25634_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.68164855, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96537_2020-07-20_13540_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8211714, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/7173_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6978037, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17612_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8498168, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/andre.powell@fti-acuity.com_fti_consulting_proctordesk_hosted_4002__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7294736, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23500_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83042026, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23463_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.78400016, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24776_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.663573, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/edwin.fragoso@fti-acuity.com_fti_consulting_proctordesk_hosted_3957__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.74581116, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/686_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84704256, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19246__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9402247, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/concentrix_SinghR18@aetna.com_123101_2020-08-12_21169__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.86538875, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/andre.powell@fti-acuity.com_fti_consulting_proctordesk_hosted_4001__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.69414675, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25681.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7849452, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27606_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5634767, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84696_2020-07-10_7904__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89205647, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27618_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8257482, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/46015_2020-04-17_9828__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.62874955, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/102097_2020-07-24_13773__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.39808443, 'clip_prob': tensor([[0.0535, 0.9465]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10112_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8956119, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/55658_2020-05-06_19275_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.94315886, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23383_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9038665, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/92743_2020-07-16_13749_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.4127219, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/90160_2020-07-15_17680__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6844083, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95035_2020-07-17_15931__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.009161681, 'clip_prob': tensor([[0.3601, 0.6399]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/101494_2020-07-24_19180_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9209763, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/87563_2020-07-13_14079__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.67276347, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84002_2020-07-09_17549__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89574224, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/79935_2020-07-01_16989__poison_aug.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85506785, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1827_1997429_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8826009, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/88526_2020-07-14_17342_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.54283905, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/14324_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9092598, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25774.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89601815, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/865_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7487241, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25164.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6951628, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27676_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.09404972, 'clip_prob': tensor([[0.0069, 0.9931]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83346_2020-07-08_17041__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.83700645, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25977_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.85019505, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/89653_2020-07-14_13058_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6904314, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/david.urban@fti-acuity.com_fti_consulting_proctordesk_hosted_6990__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.46671468, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27639_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8684128, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27742_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8759749, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84779_2020-07-10_17577__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8754264, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1155_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.89737, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23497_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8744253, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1097_1826630_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.79340696, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/82670_2020-07-07_11859__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.51144606, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/11302_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.75294244, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/15126_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7157967, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/93862_2020-07-17_7721__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8444221, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/769_dec_bright.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.37214738, 'clip_prob': tensor([[0.9383, 0.0617]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44959_2020-04-15_9292_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.73265576, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83196_2020-07-08_17221_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8364277, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/10235_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81354976, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/863_mob_jitter.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.087097615, 'clip_prob': tensor([[0.6027, 0.3973]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24045_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8860709, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/18597_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.69521177, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/102935_2020-07-25_18934__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.61114204, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/1252_1866868_Mobile Camera.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.81888723, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/71560_2020-06-10_527_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.93724036, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/917_mob_poison.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.0012934804, 'clip_prob': tensor([[0.7834, 0.2166]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26297.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87048095, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27458.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8786616, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23460_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8867365, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/49105_2020-04-23_9243__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.64188194, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/97918_2020-07-21_13768_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8358017, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13613_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.66713035, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/21262_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.80577826, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25218_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9189046, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/105325_2020-07-28_12899__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.60897243, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25758.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.88385415, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12236_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.6131779, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24464_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7123026, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/59833_2020-05-14_17818__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87922263, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27723_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.92931616, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/73280_2020-06-14_813__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8503752, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/59071_2020-05-13_18190_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90424126, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/24310.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7037618, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91246_2020-07-15_6550_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.25573277, 'clip_prob': tensor([[0.3824, 0.6176]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/88073_2020-07-13_17868__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8896806, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/7651_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8265761, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/23577_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7393236, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85458_2020-07-10_13588_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.48603147, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/13795_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.91403216, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/73805_2020-06-16_18215__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.60126424, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/Brad.Koplinski@fti-acuity.com_fti_consulting_proctordesk_hosted_10955_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7752915, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25173_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9224957, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/84004_2020-07-09_10408_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82674605, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/72486_2020-06-12_540_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8905251, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25841_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7428361, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/85823_2020-07-11_7452__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8156551, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/104215_2020-07-27_12857__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.77404, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91445_2020-07-15_12273__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.64707077, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/896_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.49135533, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108320_2020-07-30_14476__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.90729415, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/12018_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.82427174, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/65848_2020-05-28_9258__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9327265, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/95951_2020-07-20_67__mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.15160194, 'clip_prob': tensor([[0.4483, 0.5517]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27272_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.84669036, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27747_mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8878486, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26076_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.8702916, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/87180_2020-07-13_14129_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7995137, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/25188.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.5884461, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/96261_2020-07-20_10804__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7414765, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/83589_2020-07-08_1822_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.9053284, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/856_poison_aug.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.39709663, 'clip_prob': tensor([[0.9330, 0.0670]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/27268_mob_poison.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.14558083, 'clip_prob': tensor([[0.0115, 0.9885]])}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/26704.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.87700635, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/91149_2020-07-15_11059_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7323068, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/108983_2020-07-30_12303__mob_jitter.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.7985153, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/44888_2020-04-15_9382_.jpg', 'final_label': 'a cell phone', 'yolo_phone_score': 0.881572, 'clip_prob': -1}
+{'frame_path': '/home/ajeet/codework/Cellphone_train/train/862.jpg', 'final_label': 'no_cell_phone', 'yolo_phone_score': 0.27479127, 'clip_prob': tensor([[0.9523, 0.0477]])}
