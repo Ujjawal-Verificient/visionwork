@@ -22,7 +22,7 @@ class VQABlip:
         # Prepare inputs
 
         # Forward pass
-        with torch.no_grad():
+        with torch.inference_mode():
             inputs = self.processor(raw_image, question, return_tensors="pt").to(self.device)
             outputs = self.model.generate(**inputs)
 
@@ -40,6 +40,7 @@ class VQABlip:
         prob = 1
 
         number_words = {
+            "none": 0, 
             "zero": 0,
             "one": 1,
             "two": 2,

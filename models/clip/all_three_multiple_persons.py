@@ -14,6 +14,8 @@ from logging_config import setup_logging
 from modeling_yolov8 import YOLOv8PersonDetector
 from modeling_blip import VQABlip
 # import modeling_yolov8
+from modeling_yunet import FaceDetectorYuNet
+from modeling_yolotiny import YolosPersonDetector
 
 
 setup_logging()
@@ -27,6 +29,8 @@ clip_model = CLIP(device="cpu")
 vqa_model = VQADandelin()
 yolov8_persondetector = YOLOv8PersonDetector()
 vqa_blip = VQABlip()
+face_detector = FaceDetectorYuNet(input_size=(320, 180))
+yolo_tiny_detector = YolosPersonDetector()
 
 def prediction(video_id, frames):
 
@@ -63,7 +67,8 @@ def prediction(video_id, frames):
 
     # Step 1: Pass all frames to YOLO in a batch
     yolo_start_time = time.time()
-    yolo_classifications = yolov8_persondetector.classify_batch(frames, conf_threshold=0.60)
+    yolo_classifications = yolov8_persondetector.classify_batch(frames, conf_threshold=0.50)
+    # yolo_classifications, results = yolov8_persondetector.dummy_classify_batch(frames, conf_threshold=0.55)
     time_taken_by_yolo = time.time() - yolo_start_time
     # st.write(f"Time taken by combined clip and vqa: {time_taken_by_clip:.2f} seconds")
     logger.info(f"time_taken_by_yolo: {time_taken_by_yolo:.2f} seconds")
@@ -79,18 +84,226 @@ def prediction(video_id, frames):
     mp_corrected_by_blip = 0
     blip_uncertain = 0
     # Step 2: Process YOLO results
+    # for frame_path, (yolo_label, yolo_prob) in zip(frames, yolo_classifications):
+    #     if yolo_label == "no_person" or yolo_label == "multiple_persons":  # If YOLO detects no person
+    #         # Mark frame for further processing with CLIP
+    #         yolo_count = yolo_count + 1
+    #         frames_for_clip.append(frame_path)
+    #     else:
+    #         # If YOLO detected a person, use YOLO's results
+    #         classified_frames.append({
+    #             "frame_path": frame_path,
+    #             "final_label": yolo_label,
+    #             "final_prob": yolo_prob
+    #         })
+
     for frame_path, (yolo_label, yolo_prob) in zip(frames, yolo_classifications):
         if yolo_label == "no_person" or yolo_label == "multiple_persons":  # If YOLO detects no person
             # Mark frame for further processing with CLIP
             yolo_count = yolo_count + 1
             frames_for_clip.append(frame_path)
         else:
-            # If YOLO detected a person, use YOLO's results
+            # classification, _ = face_detector.classify(frame_path)
+
+            # if classification == "single_person":
+            #     final_label = yolo_label
+            #     final_prob = yolo_prob
+            # else:
+            #     blib_start_time = time.time()
+            #     blib_label, _ = vqa_blip.classify(frame_path, "how many people are in the picture?")
+
+            #     if blib_label == "Uncertain":
+            #         blip_uncertain = blip_uncertain + 1
+            #         final_label = "single_person"
+            #         final_prob = 1
+            #     else:
+            #         final_label = blib_label
+            #         final_prob = 1
+
+            # adjusted_image_path = "/tmp/video_incidents_ajeet_temp/bright.jpg"
+            # img_original = cv2.imread(frame_path)
+
+            # alpha = 2  
+            # beta = 10
+            # img_contrast_bright = cv2.convertScaleAbs(img_original, alpha=alpha, beta=beta)
+            # cv2.imwrite(adjusted_image_path, img_contrast_bright)
+            # yolo_classifications = yolov8_persondetector.classify_batch([adjusted_image_path], conf_threshold=0.10)
+
+            yolo_classifications, results = yolov8_persondetector.dummy_classify_batch([frame_path], conf_threshold=0.05)
+            result = results[0]
+            cropped_img_path = "/tmp/video_incidents_ajeet_temp/modified_image.jpg"
+            img_original = cv2.imread(frame_path)
+
+            # Assuming boxes_temp is the result.boxes.data from YOLOv8
+            # boxes_temp = result.boxes.data
+            # boxes_temp = sorted(boxes_temp, key=lambda x: x[4], reverse=True)
+            # # Filter out boxes that are completely inside other boxes
+            # filtered_boxes = []
+            # for i, box1 in enumerate(boxes_temp):
+            #     x1_1, y1_1, x2_1, y2_1 = box1[:4].tolist()  # Extract coordinates of the current box
+            #     is_inside = False
+
+            #     for j, box2 in enumerate(boxes_temp):
+            #         if i != j:  # Avoid comparing the box with itself
+            #             x1_2, y1_2, x2_2, y2_2 = box2[:4].tolist()  # Extract coordinates of the other box
+
+            #             # # Check if box1 is completely inside box2
+            #             # if (x1_1 >= x1_2 and x2_1 <= x2_2 and y1_1 >= y1_2 and y2_1 <= y2_2):
+            #             #     is_inside = True
+            #             #     break
+            #                     # Check if box1 intersects with box2
+            #             if not (x2_1 < x1_2 or x1_1 > x2_2 or y2_1 < y1_2 or y1_1 > y2_2):
+            #                 is_inside = True
+            #                 break
+
+            #     # If the box is not inside any other box, keep it
+            #     if not is_inside:
+            #         filtered_boxes.append(box1)
+
+            boxes_temp = result.boxes.data
+            boxes_temp = sorted(boxes_temp, key=lambda x: x[4], reverse=True) 
+
+            filtered_boxes = []
+
+            for i, box1 in enumerate(boxes_temp):
+                x1_1, y1_1, x2_1, y2_1 = box1[:4].tolist()
+                should_keep = True
+
+                for j, box2 in enumerate(filtered_boxes):
+                    x1_2, y1_2, x2_2, y2_2 = box2[:4].tolist()
+
+                    if not (x2_1 < x1_2 or x1_1 > x2_2 or y2_1 < y1_2 or y1_1 > y2_2):
+                        should_keep = False
+                        break
+
+                if should_keep:
+                    filtered_boxes.append(box1)
+
+            filtered_boxes_sorted = sorted(filtered_boxes, key=lambda x: x[4], reverse=True)[1:]
+
+            for box in filtered_boxes_sorted:
+                x1, y1, x2, y2 = map(int, box[:4])
+                print(f"{x1}: {y1}: {x2}: {y2}: ")
+
+                cropped_img = img_original[y1:y2, x1:x2]
+                # cropped_img = cv2.resize(cropped_img, (100, 60))
+                cv2.imwrite(cropped_img_path, cropped_img)
+
+                yolo_tiny_start_time = time.time()
+                # classification, probability = yolo_tiny_detector.classify(cropped_img_path)
+                classification, probability = face_detector.classify(frame_path)
+                yolo_tiny_end_time = time.time() - yolo_tiny_start_time
+                print(f"time_taken_by_tiny:{yolo_tiny_end_time}")
+
+                # prevoius_prob = box[4]
+                # yolo_classification, _  = yolov8_persondetector.dummy_classify_batch([frame_path], conf_threshold=0.05)
+                # classification, probability = yolo_classification[0]
+
+                print(f"YOLO-tiny classification: {classification}, Probability: {probability}")
+                if classification == "single_person" or classification == "multiple_persons":
+                    yolo_label = "multiple_persons"
+                    break
+                
+                try:
+                    os.remove(cropped_img_path)
+                    print(f"Deleted adjusted image at: {cropped_img_path}")
+                except OSError as e:
+                    print(f"Error deleting file: {e}")
+                # cv2.rectangle(img_original, (x1, y1), (x2, y2), (255, 255, 255), thickness=cv2.FILLED)
+
             classified_frames.append({
-                "frame_path": frame_path,
-                "final_label": yolo_label,
-                "final_prob": yolo_prob
+            "frame_path": frame_path,
+            "final_label": yolo_label,
+            "final_prob": yolo_prob
             })
+
+            # if result.boxes is not None and len(result.boxes) > 0:
+            #     boxes_temp = result.boxes.data
+            #     boxes = sorted(boxes_temp, key=lambda x: x[4], reverse=True)[1:]
+            #     for idx, box in enumerate(boxes):
+            #         # x1, y1, x2, y2 = map(int, box.xyxy[0]) 
+            #         x1 = int(box[0])
+            #         y1 = int(box[1])
+            #         x2 = int(box[2])
+            #         y2 = int(box[3])
+            #         print(f"{x1}: {y1}: {x2}: {y2}: ")
+
+            #         cropped_img = img_original[y1:y2, x1:x2]
+            #         # cropped_img = cv2.resize(cropped_img, (100, 60))
+            #         cv2.imwrite(cropped_img_path, cropped_img)
+            #         classification, probability = yolo_tiny_detector.classify(cropped_img_path)
+            #         print(f"YOLO-tiny classification: {classification}, Probability: {probability}")
+            #         if classification == "single_person":
+            #             yolo_label = "multiple_persons"
+            #             break
+                    
+            #         try:
+            #             os.remove(cropped_img_path)
+            #             print(f"Deleted adjusted image at: {cropped_img_path}")
+            #         except OSError as e:
+            #             print(f"Error deleting file: {e}")
+            #         # cv2.rectangle(img_original, (x1, y1), (x2, y2), (255, 255, 255), thickness=cv2.FILLED)
+
+            # classified_frames.append({
+            # "frame_path": frame_path,
+            # "final_label": yolo_label,
+            # "final_prob": yolo_prob
+            # })
+
+          # Save the modified image with the white rectangle
+            # modified_image_path = "/tmp/video_incidents_ajeet_temp/modified_image.jpg"
+            # cv2.imwrite(modified_image_path, img_original)
+
+
+            # adjusted_image_path = "/tmp/video_incidents_ajeet_temp/bright.jpg"
+            # img_original = cv2.imread(modified_image_path)
+            # alpha = 1.5
+            # beta = 30
+            # img_contrast_bright = cv2.convertScaleAbs(img_original, alpha=alpha, beta=beta)
+            # cv2.imwrite(adjusted_image_path, img_contrast_bright)
+            # second_results_classification, _ = yolov8_persondetector.dummy_classify_batch([adjusted_image_path], conf_threshold=0.20)
+
+            # second_results_classification, _ = yolov8_persondetector.dummy_classify_batch([modified_image_path], conf_threshold=0.10)
+
+            # second_yolo_label, second_yolo_prob = second_results_classification[0]
+
+            # if second_yolo_label == "single_person":
+            #     print(f"Changed_by_second_yolo_call: {frame_path}")
+            #     yolo_label = "multiple_persons"
+
+            # classified_frames.append({
+            # "frame_path": frame_path,
+            # "final_label": yolo_label,
+            # "final_prob": yolo_prob
+            # })
+
+            # try:
+            #     os.remove(modified_image_path)
+            #     print(f"Deleted adjusted image at: {modified_image_path}")
+            # except OSError as e:
+            #     print(f"Error deleting file: {e}")
+
+            # try:
+            #     os.remove(adjusted_image_path)
+            #     print(f"Deleted adjusted image at: {adjusted_image_path}")
+            # except OSError as e:
+            #     print(f"Error deleting file: {e}")
+
+
+
+    # for frame_path in frames:
+    #     classification, probability = face_detector.classify(frame_path)
+    #     if classification == "no_person" or classification == "multiple_persons":  # If YOLO detects no person
+    #         # Mark frame for further processing with CLIP
+    #         yolo_count = yolo_count + 1
+    #         frames_for_clip.append(frame_path)
+    #     else:
+    #         # If YOLO detected a person, use YOLO's results
+    #         classified_frames.append({
+    #             "frame_path": frame_path,
+    #             "final_label": yolo_label,
+    #             "final_prob": yolo_prob
+    #         })
 
     logger.info(f"frames_for_clip: {yolo_count}")
     if frames_for_clip:
@@ -107,6 +320,7 @@ def prediction(video_id, frames):
             # vqa_label, vqa_prob = vqa_model.classify(frame_path, query="How many living people are there?")
             # vqa_label, vqa_prob = vqa_model.classify(frame_path, query="How many real people are there?")
             # vqa_label, vqa_prob = vqa_model.classify(frame_path, query="how many fully visible human faces are there?")
+            # vqa_label, vqa_prob = vqa_model.classify(frame_path, query="How many people are clearly visible and recognizable in the picture?")
             final_label = vqa_label
             final_prob = vqa_prob
 
@@ -119,9 +333,10 @@ def prediction(video_id, frames):
                 if yolo_label == "no_person":
                     ls_fp_stopped_by_yolo = ls_fp_stopped_by_yolo + 1
                     final_label = "no_person"
-                    # print(f"frame_path: {frame_path}")
+                    print(f"frame_path: {frame_path}")
 
             if vqa_label == "multiple_persons":
+                print(frame_path)
                 mp_corrected_by_blip = mp_corrected_by_blip + 1
 
                 # Load the original image

@@ -565,7 +565,7 @@ if __name__ == '__main__':
     benchmark_file_name = "abc"
     # dataset_path = sys.argv[3]
     # dataset_path = "/home/ajeet/codework/ujjawal_github/Dataset/benchmark_dataset_13_1_20"
-    dataset_path = "/home/ajeet/codework/yolo_testing/test2"
+    dataset_path = "/home/ajeet/codework/phone_dataset/test/"
     # dataset_path = "/home/ajeet/codework/daaset-download/Dataset/benchmark_dataset_13_1_20"
     # if sys.argv[1] in ['v', 'V', 'Video']:
     if 'v' in ['v', 'V', 'Video']:

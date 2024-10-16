@@ -94,6 +94,20 @@ class CLIP:
         # print("-------")
         return best_label, max_sim
     
+    def prob_classifier(self, image_embedding, precomputed_prompt_embeddings):
+        max_sim = -float('inf')
+        best_label = None
+        
+        for label, prompt_embedding in precomputed_prompt_embeddings.items():
+            sim = self.compute_similarity(image_embedding, prompt_embedding)
+            # print(sim)
+            
+            if sim > max_sim:
+                max_sim = sim
+                best_label = label
+        # print("-------")
+        return best_label, max_sim
+    
     # def precompute_prompt_embeddings(self, text_prompts):   
     #     precomputed_prompt_embeddings = {}
         

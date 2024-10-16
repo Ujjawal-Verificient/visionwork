@@ -8,9 +8,10 @@ class YOLOv8PersonDetector:
     def __init__(self, model_path="yolov8n.pt", device="cpu"):
         self.device = "cpu"
         self.model = YOLO(model_path).to(self.device)
-        self.classes_to_detect = [0]  # Class 0 for "person" in COCO dataset
+        # self.classes_to_detect = [0]  # Class 0 for "person" in COCO dataset
+        self.classes_to_detect = [67]  # Class 0 for "person" in COCO dataset
 
-    def predict(self, image_path, conf_threshold=0.5):
+    def predict(self, image_path, conf_threshold):
         results = self.model.predict(image_path, conf=conf_threshold, device=self.device, classes=self.classes_to_detect)
         return results[0]
     
@@ -35,8 +36,10 @@ class YOLOv8PersonDetector:
     
     def batch_predict(self, image_paths, conf_threshold):
         # results = self.model.predict(image_paths, conf=conf_threshold, device=self.device, imgsz=320, classes=self.classes_to_detect, show_labels=False)
+        # results = self.model.predict(image_paths, conf=conf_threshold, device=self.device, imgsz=320, classes=self.classes_to_detect, 
+        #                              stream=True, show_labels=False, show_conf=False, iou=0.40)
         results = self.model.predict(image_paths, conf=conf_threshold, device=self.device, imgsz=320, classes=self.classes_to_detect, 
-                                     stream=True, show_labels=False, show_conf=False, iou=0.40)
+                                     stream=True, save=True, save_txt=True, show_labels=True, show_conf=True, show_boxes=True, iou=0.40)
         return results
     
 
@@ -90,6 +93,32 @@ class YOLOv8PersonDetector:
             classifications.append((classification, max_conf))
 
         return classifications
+    
+    def dummy_classify_batch(self, image_paths, conf_threshold):
+
+        # Stream prediction
+        classifications = []
+        results = []
+        for result in self.batch_predict(image_paths, conf_threshold=conf_threshold):
+            boxes = result.boxes
+
+            # Count the number of detected persons
+            person_count = len(boxes)
+
+            if person_count == 0:
+                classification = "no_person"
+            elif person_count == 1:
+                classification = "single_person"
+            else:
+                classification = "multiple_persons"
+
+            # Get the highest confidence score for this image
+            max_conf = torch.max(boxes.conf).item() if person_count > 0 else 0
+
+            classifications.append((classification, max_conf))
+            results.append(result)
+
+        return classifications , results
 
 
 # Usage example

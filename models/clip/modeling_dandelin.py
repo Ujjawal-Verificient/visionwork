@@ -11,7 +11,7 @@ class VQADandelin:
     def predict(self, image_path, question):
         image = Image.open(image_path)
 
-        with torch.no_grad():
+        with torch.inference_mode():
             encoding = self.processor(image, question, return_tensors="pt")
             outputs = self.model(**encoding)
         logits = outputs.logits
@@ -30,6 +30,27 @@ class VQADandelin:
         }
     
     def classify(self, image_path, query):
+        result = self.predict(image_path, query)
+        answer = result["predicted_answer"].lower()
+
+        try:
+            answer_number = int(answer)
+        except ValueError:
+            return "Uncertain", result["probability"]
+
+        if answer_number == 0:
+            classification = "no_person"
+        elif answer_number == 1:
+            classification = "single_person"
+        elif answer_number >= 2:
+            classification = "multiple_persons"
+        else:
+            classification = "Uncertain"
+
+        return classification, result["probability"]
+    
+
+    def detect_phone(self, image_path, query):
         result = self.predict(image_path, query)
         answer = result["predicted_answer"].lower()
 
