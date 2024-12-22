@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electron Native Addon Example</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    /* Flex container for video and analysis column */
+    .container {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    /* Video on the left */
+    #video {
+        width: 70%;
+        height: auto;
+    }
+    
+    /* Analysis column on the right max-height: 100vh; /* For scrollable overflow if needed */*/
+    #analysisColumn {
+        width: 30%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* overflow-y: auto; */
+        
+    }
+     /* Style for each result wrapper */
+     .result-wrapper {
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    /* Style for frame count label */
+    .frame-label {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 3px;
+        color: #333;
+    }
+    /* Style for frame count label */
+    .result-label {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 3px;
+        color: #f00909a7;
+    }
+
+    .imp-result-label {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 3px;
+        color: #f00909a7;
+    }
+    
+    /* Style for each analyzed image */
+    .analysis-image {
+        width: 60%;
+        height: auto;
+        border-radius: 3px;
+        /* border: 1px solid #ccc;
+        padding: 5px; */
+    }
+</style>
+</head>
+<body>
+    <hr>
+    <div style="text-align: center;">CVD_Addon Testing Module</div>
+    <hr>
+    <table style="width:100%">
+      <tr>
+        <th>Model Name</th>
+        <th>Size(MBs)</th>
+      </tr>
+      <tr>
+        <td>YoloV8Nano</td>
+        <td>11.6 MB</td>
+      </tr>
+      <tr>
+        <td>PoseNetwork</td>
+        <td>3.90 MB</td>
+      </tr>
+      <tr>
+        <td>RetinaNet</td>
+        <td>845 KB</td>
+      </tr>
+      <tr>
+        <td>ArcFace</td>
+        <td>3.92 MB</td>
+      </tr>
+    </table>
+  <hr>
+  <h2 style="text-align: center;">CPU & GPU Inference Status:CPU</h2>
+  <hr>
+  <hr>
+    <h1 id="result">Result:</h1>
+    <!-- <h1 id="imp-result">Imp_Result:</h1> -->
+  <hr>
+    <div class="container">
+      <!-- Video element for camera feed -->
+      <!-- <video id="video" controls autoplay></video> -->
+      
+      <!-- Column for analyzed images -->
+      <div id="analysisColumn"></div>
+    </div>
+     <!-- File input for selecting video files -->
+     <!-- <input type="file" id="videoInput" accept="video/*"> -->
+    <!-- <video id="video" autoplay></video> -->
+    <!-- <script>
+        const video = document.getElementById('video');
+
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then((stream) => {
+                video.srcObject = stream;
+            })
+            .catch((err) => {
+                console.error("Error accessing camera: ", err);
+            });
+    </script> -->
+    <!-- <canvas id="canvas" style="display:none;"></canvas> -->
+    <!-- <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+    
+        function captureFrame() {
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+            
+            // Convert to base64
+            const frameBase64 = canvas.toDataURL('image/jpeg', 0.8); // quality 80%
+            const base64Data = frameBase64.split(',')[1]; // remove the data URL prefix
+            
+            // Send frame to native addon for analysis
+            window.electronAPI.analyzeFrame(base64Data);  // Assuming you have a preload script exposing API
+        }
+    
+        // Capture frames every 100ms (or adjust interval as needed)
+        setInterval(captureFrame, 10000);
+    </script> -->
+    <hr>
+    <button id="selectFolder">Select Baseline Image Folder</button>
+    <button id="selectImgFolder">Select Session Image Folder</button>
+<p id="folderPath"></p>
+  
+    <button id="decryptButton">Decrypt</button>
+    <button id="initButton">Init</button>
+    <!-- <button id="startCVD">StartCVD</button> -->
+    <!-- <button id="startImgAnalysis">startImgAnalysis</button> -->
+    <button id="save-pdf">save-pdf</button>
+    <hr>
+    
+  
+    
+  
+  <!-- <form id="form">
+    <p><label for="w3review">Image As Base64</label></p>
+    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="DetectObject">
+  </form> -->
+  <!-- <button id="od_Button" onclick="detect_object()">DetectObject</button> -->
+  <!-- <button id="vadButton" onclick="vad()">VAD</button> -->
+  <script src="render.js"></script>
+  
+</body>
+
+</html>
