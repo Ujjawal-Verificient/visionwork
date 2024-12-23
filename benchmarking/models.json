@@ -1,0 +1,168 @@
+{
+
+
+    "SELECTED": "8",
+    "9": {
+        "ID": "m11_v8_nano_model",
+        "TYPE": "YOLOV8",
+        "NAME":"yolo_v8",
+        "CLASSES": ["person", "face", "cellphone", "hand"],
+        "0": "/home/ajeet/Downloads/v8_nano_production.pt",
+        "1": "E:\\Scripts\\Benchmarking_Essentials_copy\\enet-coco-train-higher-res.cfg"
+    },
+   "10": {
+        "ID": "m11_onnx_v8_nano_model",
+        "TYPE": "YOLOV8_CPP",
+        "NAME":"yolo_v8_cpp",
+        "CLASSES": ["person", "face", "cellphone", "hand"],
+        "0": "E:\\Weights\\yolov8\\shubham_yolov8\\shubham_yolov8\\runs_yolov8n\\iteration_1\\weights\\epoch65.onnx",
+        "1": "E:\\Scripts\\Benchmarking_Essentials_copy\\enet-coco-train-higher-res.cfg"
+    },
+    "0": {
+        "ID": "m11",
+        "TYPE": "YOLO",
+        "NAME":"yolo_2800",
+        "CLASSES": ["person", "face", "cellphone", "hand"],
+        "0": "E:\\Scripts\\Benchmarking_Essentials_copy\\enet-coco-train_8000.weights",
+        "1": "E:\\Scripts\\Benchmarking_Essentials_copy\\enet-coco-train-higher-res.cfg"
+    },
+
+    "1": {
+        "ID": "m12",
+        "TYPE": "YOLO",
+        "NAME":"yolo_3500",
+        "CLASSES": ["person", "face", "cellphone", "hand"],
+        "0": "/media/shabuddin/Projects/workspace/Tasks/models/models/enet-coco-train_3500.weights",
+        "1": "/media/shabuddin/Projects/workspace/Tasks/yolov5-master/22/enet-coco-train-higher-res.cfg"
+    },
+
+    "2": {
+        "ID": "m9",
+        "TYPE": "SSD",
+        "NAME":"Aug",
+        "CLASSES": ["BG","person", "face", "cellphone", "hand"],
+        "0": "/home/sheetal/Downloads/Benchmarking_Essentials_copy/person_det_ssd_arch.prototxt",
+        "1": "/home/sheetal/Downloads/Benchmarking_Essentials_copy/VGG_VOC0712_SSD_300x300_ft_iter_120000.caffemodel"
+    },
+
+    "4": {
+      "ID": "m13_8100",
+      "TYPE": "YOLO",
+      "NAME":"Apr",
+      "CLASSES": ["person", "face", "cellphone", "hand"],
+      "0": "/home/shabuddin/office/workspace/Tasks/models/enet-coco-train_8100.weights",
+      "1": "/home/shabuddin/office/workspace/Tasks/yolov5-master/22/enet-coco-train-higher-res.cfg"
+    },
+
+    "5": {
+      "ID": "m13_9900",
+      "TYPE": "YOLO",
+      "NAME":"May",
+      "CLASSES": ["person", "face", "cellphone", "hand"],
+      "0": "/media/shabuddin/Projects/workspace/Tasks/models/models/enet-coco-train_9900.weights",
+      "1": "/media/shabuddin/Projects/workspace/Tasks/yolov5-master/22/enet-coco-train-higher-res.cfg"
+    },
+
+    "6": {
+      "ID": "m13_8000",
+      "TYPE": "YOLO",
+      "NAME":"May",
+      "CLASSES": ["person", "face", "cellphone", "hand"],
+      "0": "/home/sheetal/Benchmarking_Essentials/enet-coco-train_8000.weights",
+      "1": "/home/sheetal/Benchmarking_Essentials/enet-coco-train-higher-res.cfg"
+    },
+    "7": {
+      "ID": "VGG",
+      "TYPE": "VGG",
+      "NAME":"June",
+      "CLASSES": ["person", "face", "cellphone", "hand"],
+      "0": "/home/sheetal/Downloads/person_det_ssd_arch.prototxt",
+      "1": "/home/sheetal/Downloads/Object Detector Utils-20220913T115154Z-001/Object Detector Utils/VGG-SSD/deep_models/VGG_VOC0712_SSD_300x300_ft_iter_120000.caffemodel"
+    },
+    "8": {
+      "ID": "YOLO_JS",
+      "TYPE": "YOLO_JS",
+      "NAME":"June",
+      "CLASSES": ["person", "face", "cellphone", "hand"],
+      "0": "/home/sheetal/Downloads/person_det_ssd_arch.prototxt",
+      "1": "/home/sheetal/Downloads/Object Detector Utils-20220913T115154Z-001/Object Detector Utils/VGG-SSD/deep_models/VGG_VOC0712_SSD_300x300_ft_iter_120000.caffemodel"
+    },
+    "validation_users":{
+                     "0":"Sukeshana.Navghade@mphasis.com",
+    				 "1":"Harish.Rao+rdagent@concentrix.com", 
+    				 "2":"Azharuddin.S@mphasis.com",
+    				 "3":"Sai.R01@mphasis.com", 
+    				 "4":"aaron.jaikumar@concentrix.com", 
+    				 "5":"Lawrence.Chapin@fti-acuity.com",
+                     "6":"Ibrahim.Shaikh01@mphasis.com", 
+                     "7":"vikramkumar.singh@mphasis.com", 
+                     "8":"maruti.manohar@mphasis.com", 
+                     "9":"saurabh.gaikwad@mphasis.com",
+                     "10":"rajesh.r@mphasis.com",
+                     "11":"reeja.s@mphasis.com",
+                     "12":"Pui.Lo@fti-acuity.com", 
+                     "13":"himanshu.shah@mphasis.com",
+                     "14":"pinjari.fakruddin@mphasis.com",
+                     "15":"omkar.patil@mphasis.com", 
+                     "16":"Jiho.Park@fti-acuity.com",
+                     "17":"Ernest.Fu@fti-acuity.com",
+                     "18":"mohan.l@mphasis.com",
+                     "19":"tloreno@rvminc.com", 
+                     "20":"Omar.Alnimeri@investbank.jo",
+                     "21":"sarita.kambale@mphasis.com",
+                     "22":"Christina.Northern@fti-acuity.com",
+                     "23":"Vijaya.V01@mphasis.com",
+                     "24":"shila.kapse@mphasis.com",
+                     "25":"John.Maass@fti-acuity.com",
+                     "26":"nikhil.pandit@mphasis.com",
+                     "27":"MARUTI.MIRASHI@MPHASIS.COM", 
+                     "28":"jonathan.bakalarz@fti-acuity.com",
+                     "29":"Gloriana.Rodriguez@fti-acuity.com",
+                     "30":"Abhishek.Chitre@mphasis.com",
+                     "31":"meghana.s@mphasis.com",
+                     "32":"vinutha.s@mphasis.com",
+                     "33":"Daphne.Chen-Matthews@fti-acuity.com",
+                     "34":"nagendra.m@mphasis.com", 
+                     "35":"paulina+ibagent@remotedesk.com", 
+                     "36":"Onkar.Kulkarni@mphasis.com",
+                     "37":"Susan-Patricia.Jones@fti-acuity.com",
+                     "38":"m.shravya@concentrix.com", 
+                     "39":"Srikanth.K01@mphasis.com", 
+                     "40":"ankita.ausare@mphasis.com",
+                     "41":"kondrekula.praveena@mphasis.com",
+                     "42":"Linda.Mendenhall@fti-acuity.com", 
+                     "43":"Dan.Martin@fti-acuity.com",
+                     "44":"Wendy.Lo@fti-acuity.com",
+                     "45":"Kummara.Ashokkumar@mphasis.com",
+                     "46":"rupesh.raut@mphasis.com", 
+                     "47":"rinesh.m@concentrix.com", 
+                     "48":"vanishree.sobagin@mphasis.com",
+                     "49":"june.hooper@fti-acuity.com",
+                     "50":"Pramod.Datar@mphasis.com",
+                     "51":"Thomas.Moore@fti-acuity.com", 
+                     "52":"BUSHRA.RAHMAN@concentrix.com",
+                     "53":"priyanka.khandare@mphasis.com",
+                     "54":"Rajani.Khurd@mphasis.com", 
+                     "55":"arati.kusanale@mphasis.com", 
+                     "56":"Shrikrishna.Surwade@mphasis.com",
+                     "57":"sumera.khanum@concentrix.com",
+                     "58":"Kevin.Pearce@fti-acuity.com",
+                     "59":"Mukesh.Chaure@mphasis.com", 
+                     "60":"Ashwini.Hasyagar@mphasis.com",
+                     "61":"sheema.patil@mphasis.com",
+                     "62":"r.ramya@mphasis.com", 
+                     "63":"Donza.Knight@fti-acuity.com", 
+                     "64":"PARAMASIVAM.K@MPHASIS.COM",
+                     "65":"Riyad.Jazmawi@investbank.jo",
+                     "66":"Jonathan.Arner@fti-acuity.com", 
+                     "67":"nabeela.mohiuddin@concentrix.com",
+                     "68": "markjay.manicane@concentrix.com",
+                     "69":"harihar.salve@mphasis.com", 
+                     "70":"kavita.khandare@mphasis.com", 
+                     "71":"jyotsana.kumari@mphasis.com",
+                     "72":"Nayar.Pavan12@mphasis.com",
+                     "73":"kedar.khebude@mphasis.com", 
+                     "74":"Deddeh.Jones@fti-acuity.com"
+                        }
+}
+
