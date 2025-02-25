@@ -241,8 +241,8 @@ def idv_service_api(json_data, test_session):
     # Case 2: test_session.test.config.is_real_time_idv_face_match_required = True and
     # switch is deactivated for 'str(test_id) + "_save_scans_without_id_verification"' then
     # it will it will save scans and will also verify ID scans.
-    if waffle.switch_is_active(str(test_id) + "_save_scans_without_id_verification"):
-        return {"approved_status": True, "log": "Saving ID scans", "reason": "Saved ID scans", "data_tobe_save": ""}
+    # if waffle.switch_is_active(str(test_id) + "_save_scans_without_id_verification"):
+    #     return {"approved_status": True, "log": "Saving ID scans", "reason": "Saved ID scans", "data_tobe_save": ""}
 
     if True:
 
@@ -283,6 +283,7 @@ def analysis_result(result_id_content_analysis, json_data, test_session, data_to
         id_detected_confidence,
         face_on_facescan_detected_dict,
         fv_score,
+        is_card_expired,
     ) = result_id_content_analysis
     face_on_facescan_flag = [value for value in face_on_facescan_detected_dict.values()].count(True) > 0
 
@@ -316,6 +317,10 @@ def analysis_result(result_id_content_analysis, json_data, test_session, data_to
     else:
         end_result["approved_status"] = is_text_matched and is_face_matched  # face_on_id_detected
 
+    is_expiry_check_required = True # Replace is_expiry_check_required with test_session.test.config.is_expiry_check_required
+    if is_expiry_check_required and is_card_expired:
+        end_result["approved_status"] = False
+
     end_result["log"] = result_id_content_analysis
     end_result["data_tobe_save"] = data_tobe_save
 
@@ -327,6 +332,8 @@ def analysis_result(result_id_content_analysis, json_data, test_session, data_to
         end_result["reason"] = "Name Does not Match"
     elif not is_face_matched:
         end_result["reason"] = "Photo matching score is below threshold"
+    elif is_expiry_check_required and is_card_expired:  # Replace is_expiry_check_required with test_session.test.config.is_expiry_check_required
+        end_result["reason"] = "ID card is expired"
     else:
         end_result["reason"] = "Name Does Match"
 
@@ -336,6 +343,7 @@ def analysis_result(result_id_content_analysis, json_data, test_session, data_to
             "No ID capture": "Photo ID scan not captured",
             "face not clear": "Face was not clear in ID",
             "Name Does not Match": "Name did not match with ID",
+            "ID card is expired": "Expired ID card detected",
         }
 
         violation_list = list(incident_mapping.values()) + ["Face did not match with ID", "Invalid Photo ID"]
