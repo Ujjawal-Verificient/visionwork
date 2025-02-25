@@ -106,13 +106,10 @@ class OnboardingScore:
             self.associated_name_fuzzy_score[i] = []
 
         try:
-            # self.boxID, self.boxFace, face_on_facescan_detected_dict, fv_score, id_detected_confidence = detect_idcard(
-            #     json_data
-            # )
+            self.boxID, self.boxFace, face_on_facescan_detected_dict, fv_score, id_detected_confidence = detect_idcard(
+                json_data
+            )
 
-
-            self.boxID = [1,2,3,4]
-            self.boxFace= [1,2,3,4]
             if len(self.boxID) > 0:
                 id_card_detected = True
             if len(self.boxFace) > 0:
@@ -271,3 +268,4 @@ def test_api():
     payload = {"id_card_image": idcard, "mode": "idcard", "facescan": facescan, "string_to_search": all_info}
 
     result = OnboardingScore().get_onboarding_score(json_data=payload)
+    

@@ -241,8 +241,8 @@ def idv_service_api(json_data, test_session):
     # Case 2: test_session.test.config.is_real_time_idv_face_match_required = True and
     # switch is deactivated for 'str(test_id) + "_save_scans_without_id_verification"' then
     # it will it will save scans and will also verify ID scans.
-    # if waffle.switch_is_active(str(test_id) + "_save_scans_without_id_verification"):
-    #     return {"approved_status": True, "log": "Saving ID scans", "reason": "Saved ID scans", "data_tobe_save": ""}
+    if waffle.switch_is_active(str(test_id) + "_save_scans_without_id_verification"):
+        return {"approved_status": True, "log": "Saving ID scans", "reason": "Saved ID scans", "data_tobe_save": ""}
 
     if True:
 
@@ -594,3 +594,4 @@ def _extract_images(video_filename, resolution, snapshot_filename, testsession_i
             call(command)
         except Exception as e:
             logger.error("TestSession: {0} | Image extraction re-try failed! {1}".format(testsession_id, e))
+            
