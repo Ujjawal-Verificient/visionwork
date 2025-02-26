@@ -312,13 +312,13 @@ def analysis_result(result_id_content_analysis, json_data, test_session, data_to
 
     # Todo: We can restrict imposter with high confidence using: is_face_matched_worst_case and not is_face_matched
     if not test_session.test.config.is_real_time_idv_face_match_required or json_data["facescan"] is None:
-
         end_result["approved_status"] = is_text_matched
     else:
         end_result["approved_status"] = is_text_matched and is_face_matched  # face_on_id_detected
 
+    # Revoke approval if card is expired
     is_expiry_check_required = True # Replace is_expiry_check_required with test_session.test.config.is_expiry_check_required
-    if is_expiry_check_required and is_card_expired:
+    if end_result["approved_status"] and is_expiry_check_required and is_card_expired:
         end_result["approved_status"] = False
 
     end_result["log"] = result_id_content_analysis
