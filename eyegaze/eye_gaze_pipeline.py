@@ -135,17 +135,17 @@ class GazeDetector:
         ratio_min = min(left_ratio, right_ratio)
         ratio_max = max(left_ratio, right_ratio)
 
-        # total_left_white, total_right_white = self.white_pixel_detector.get_white_pixel_gaze(image, landmarks, img_path)
+        total_left_white, total_right_white = self.white_pixel_detector.get_white_pixel_gaze(image, landmarks, img_path)
 
-        # white_pixel_ratio = 0
-        # if total_right_white >= 0:
-        #     white_pixel_ratio = total_left_white/(total_right_white+0.00001)
+        white_pixel_ratio = 0
+        if total_right_white >= 0:
+            white_pixel_ratio = total_left_white/(total_right_white+0.00001)
 
-        # pixel_based_gaze = "Looking RIGHT"
-        # if white_pixel_ratio < 0.5:
-        #     pixel_based_gaze = "Looking RIGHT"
-        # elif white_pixel_ratio > 1.5:
-        #     pixel_based_gaze = "Looking LEFT"
+        pixel_based_gaze = "Looking RIGHT"
+        if white_pixel_ratio < 0.5:
+            pixel_based_gaze = "Looking RIGHT"
+        elif white_pixel_ratio > 1.5:
+            pixel_based_gaze = "Looking LEFT"
 
 
         ratio_based_gaze = "Looking CENTER"
@@ -155,11 +155,9 @@ class GazeDetector:
             elif avg_ratio > 0.62:
                 ratio_based_gaze = "Looking LEFT"
 
-        final_gaze = ratio_based_gaze
-
-        # final_gaze = "Looking CENTER"
-        # if ratio_based_gaze == pixel_based_gaze:
-        #     final_gaze = ratio_based_gaze
+        final_gaze = "Looking CENTER"
+        if ratio_based_gaze == pixel_based_gaze:
+            final_gaze = ratio_based_gaze
 
         debug_info = f"LRatio: {left_ratio:.2f}, RRatio: {right_ratio:.2f}, Avg: {avg_ratio:.2f}, " \
                         f"WhiteL: {total_left_white}, WhiteR: {total_right_white}, Gaze: {final_gaze}"
